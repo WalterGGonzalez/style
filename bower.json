@@ -7,5 +7,14 @@
     "Edmundo Perez Castrejon <edmundo.perez@crowdint.com>"
   ],
   "description": "default css for all crowdint websites",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "public/stylesheets/style.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "assets"
+  ]
 }
