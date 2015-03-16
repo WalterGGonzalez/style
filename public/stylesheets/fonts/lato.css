@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local("Lato-Hairline"), url(http://fonts.gstatic.com/l/font?kit=O_zV-zpES8m70ZJ2G0sHzChqGa-CSr3nQtF3lrv2wWeu7RP096c_0cFQ7arjjB7ybFaXKHeky_O7IdzbE_trRh2NL1ThVuLv506WDWjwTFK0tkCcv8VGcP6XCC56Ww8-) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(http://fonts.gstatic.com/l/font?kit=AgYOQ731ufUQTvv4tet3mkosB6nLuSa-iuRDVH7ia7YFjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(http://fonts.gstatic.com/l/font?kit=B-G4Bu_a_PZWRWhXrFbbq3gShx1I3EQEk3P0UXxV4G1dxlT5RfGIy95sQWGkHIXZT_wDREvo4O6_6v9ljamcpjDjNODm32iLRYw2SNTAhDi20L9efk2PUOdb5H1Th4EY) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(http://fonts.gstatic.com/l/font?kit=Y-oq9SOo56NWVEK0VUtEkkosB6nLuSa-iuRDVH7ia7YFjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"), url(http://fonts.gstatic.com/l/font?kit=o2KJdCQNtpcOZqCR_p9HSkosB6nLuSa-iuRDVH7ia7YFjxAsoMPe6KTmxHr8yBfIjVpFoe6rX3ET310906cqDO5a0y2yM-buDzIWb-IT1VZnJfANE-_pKN9C1ZsKTQQU) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  src: local("Lato Hairline Italic"), local("Lato-HairlineItalic"), url(http://fonts.gstatic.com/l/font?kit=TQq5kuiDwiVMSCt-_TEgbEcqwH9zdArWjc7XlrFd-2TsPXYqTGLZ2U8sggWmBN11vY_KnrbECKVYwT5jML176E-hCdHeAh1EypZggr0U53BuXxQghSWdr5fKRAiL7DYm) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Lato Light Italic"), local("Lato-LightItalic"), url(http://fonts.gstatic.com/l/font?kit=_ZtpK0Io6KXGBI3QakDTI9oLqSWmDCRj17QBVup6CqJMKDW7wr8-mFUtZxX0An9Hxjwkr35EAwjGz2xBtHyf46VYFdkcnG3BQC4BAwdRBqtuAtmJ8SPLz6DEExiJ-m1d) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url(http://fonts.gstatic.com/l/font?kit=x7Ed4ORAgJBSCB0gu3ZtNShqGa-CSr3nQtF3lrv2wWeu7RP096c_0cFQ7arjjB7ybFaXKHeky_O7IdzbE_trRh2NL1ThVuLv506WDWjwTFK0tkCcv8VGcP6XCC56Ww8-) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Lato Bold Italic"), local("Lato-BoldItalic"), url(http://fonts.gstatic.com/l/font?kit=2vim0nnEJb7n9befyPUEtNoLqSWmDCRj17QBVup6CqJMKDW7wr8-mFUtZxX0An9Hxjwkr35EAwjGz2xBtHyf46VYFdkcnG3BQC4BAwdRBqtuAtmJ8SPLz6DEExiJ-m1d) format("woff2"); }
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Lato Black Italic"), local("Lato-BlackItalic"), url(http://fonts.gstatic.com/l/font?kit=5-SliAaOFvCUVkONJSRRQ9oLqSWmDCRj17QBVup6CqJMKDW7wr8-mFUtZxX0An9Hxjwkr35EAwjGz2xBtHyf46VYFdkcnG3BQC4BAwdRBqtuAtmJ8SPLz6DEExiJ-m1d) format("woff2"); }
+
+/*# sourceMappingURL=lato.css.map */
