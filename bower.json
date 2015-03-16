@@ -1,0 +1,11 @@
+{
+  "name": "crowdint-styles",
+  "version": "0.0.1",
+  "homepage": "https://github.com/crowdint/style",
+  "authors": [
+    "Juan Carlos Aguilar Rincón <juan.aguilar@crowdint.com>",
+    "Edmundo Perez Castrejon <edmundo.perez@crowdint.com>"
+  ],
+  "description": "default css for all crowdint websites",
+  "license": "MIT"
+}
