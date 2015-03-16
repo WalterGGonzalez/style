@@ -53,7 +53,7 @@
 html {
   font-size: 16px; }
 
-body, p, h1, section, article {
+body, p, h1, h2, h3, h4, h5, h6, section, article, div {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
@@ -102,6 +102,15 @@ body, p, h1, section, article {
 .post-info {
   font: 0.938em 'Lato Light', sans-serif;
   line-height: 1.25em; }
+
+.highlighted {
+  background-color: #F6F6F6;
+  font: 1.375em 'Lato Regular', sans-serif;
+  height: 3.125em;
+  padding: 1em;
+  text-align: center;
+  color: #AAAAAA;
+  margin-bottom: 1em; }
 
 /* Import state files */
 
