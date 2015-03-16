@@ -1,28 +1,33 @@
 .post {
-
+  margin-bottom: 0.625em;
 }
 
 .post-date {
-  width: 2.5em;
+  background-color: $darkgray;
+  color: $white;
+  float: left;
   height: 2.5em;
   margin-left: 1.25em;
-  float: left;
-  background-color: $darkgray;
   text-align: center;
+  width: 2.5em;
 }
 
+.post-date-day { font: 1.125em 'Lato Regular', sans-serif; }
+.post-date-month { font: 0.75em 'Lato Regular', sans-serif; }
+
 .post-body {
-  padding: 2.5em;
   background-color: $whitesmoke;
   margin-left: 3.75em;
+  padding: 2.5em;
+  color: $dark;
 }
 
 .post-title {
-  color: $dark;
   font: 1.25em 'Lato Regular', sans-serif;
+  margin-bottom: 0.625em;
 }
 
 .post-info {
-  color: $dark;
   font: 0.938em 'Lato Light', sans-serif;
+  line-height: 1.25em
 }

@@ -53,42 +53,55 @@
 html {
   font-size: 16px; }
 
-body, p, h1 {
+body, p, h1, section, article {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 /* Import layout files */
 #content {
-  max-width: 1390px;
-  width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 86.875em;
+  width: 100%; }
 
 .l-half {
+  float: left;
   width: 50%; }
   .l-half.last {
-    padding-left: 50px; }
+    padding-left: 3.125em; }
 
 /* Import module files */
+.post {
+  margin-bottom: 0.625em; }
+
 .post-date {
-  width: 2.5em;
+  background-color: #AAAAAA;
+  color: #FFFFFF;
+  float: left;
   height: 2.5em;
   margin-left: 1.25em;
-  float: left;
-  background-color: #AAAAAA;
-  text-align: center; }
+  text-align: center;
+  width: 2.5em; }
+
+.post-date-day {
+  font: 1.125em 'Lato Regular', sans-serif; }
+
+.post-date-month {
+  font: 0.75em 'Lato Regular', sans-serif; }
 
 .post-body {
-  padding: 2.5em;
   background-color: #F6F6F6;
-  margin-left: 3.75em; }
+  margin-left: 3.75em;
+  padding: 2.5em;
+  color: #222222; }
 
 .post-title {
-  color: #222222;
-  font: 1.25em 'Lato Regular', sans-serif; }
+  font: 1.25em 'Lato Regular', sans-serif;
+  margin-bottom: 0.625em; }
 
 .post-info {
-  color: #222222;
-  font: 0.938em 'Lato Light', sans-serif; }
+  font: 0.938em 'Lato Light', sans-serif;
+  line-height: 1.25em; }
 
 /* Import state files */
 

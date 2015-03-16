@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,QAAS;EACP,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;;AAGhB,OAAQ;EACN,KAAK,EAAE,GAAG;EACV,YAAO;IAAE,YAAY,EAAE,IAAI",
+"mappings": "AAAA,QAAS;EACP,MAAM,EAAE,MAAM;EACd,SAAS,EAAE,QAAQ;EACnB,KAAK,EAAE,IAAI;;AAGb,OAAQ;EACN,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,GAAG;EACV,YAAO;IAAE,YAAY,EAAE,OAAO",
 "sources": ["../../../assets/stylesheets/layouts/content.scss"],
 "names": [],
 "file": "content.css"
