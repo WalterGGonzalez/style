@@ -1,0 +1,28 @@
+.post {
+
+}
+
+.post-date {
+  width: 2.5em;
+  height: 2.5em;
+  margin-left: 1.25em;
+  float: left;
+  background-color: $darkgray;
+  text-align: center;
+}
+
+.post-body {
+  padding: 2.5em;
+  background-color: $whitesmoke;
+  margin-left: 3.75em;
+}
+
+.post-title {
+  color: $dark;
+  font: 1.25em 'Lato Regular', sans-serif;
+}
+
+.post-info {
+  color: $dark;
+  font: 0.938em 'Lato Light', sans-serif;
+}
