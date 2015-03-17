@@ -1,9 +1,12 @@
 html {
   font-size: 16px; }
 
-body, p, h1, h2, h3, h4, h5, h6, section, article, div {
+body, p, h1, h2, h3, h4, h5, h6, section, article, div, ul, li {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+p {
+  line-height: 1.25em; }
 
 /*# sourceMappingURL=base.css.map */

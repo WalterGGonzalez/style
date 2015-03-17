@@ -1,0 +1,20 @@
+.top {
+  list-style: decimal outside;
+  padding-left: 2em;
+  margin-bottom: 2em;
+}
+
+.top-member {
+  color: $darkgray;
+  padding-left: 1em;
+  font: 0.875em 'Lato Regular', sans-serif;
+  margin-bottom: 1em;
+}
+
+.top-title {
+  display: block;
+}
+
+.top-author {
+  display: block;
+}

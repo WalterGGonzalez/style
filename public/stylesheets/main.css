@@ -53,10 +53,13 @@
 html {
   font-size: 16px; }
 
-body, p, h1, h2, h3, h4, h5, h6, section, article, div {
+body, p, h1, h2, h3, h4, h5, h6, section, article, div, ul, li {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+p {
+  line-height: 1.25em; }
 
 /* Import layout files */
 #content {
@@ -100,8 +103,7 @@ body, p, h1, h2, h3, h4, h5, h6, section, article, div {
   margin-bottom: 0.625em; }
 
 .post-info {
-  font: 0.938em 'Lato Light', sans-serif;
-  line-height: 1.25em; }
+  font: 0.938em 'Lato Light', sans-serif; }
 
 .highlighted {
   background-color: #F6F6F6;
@@ -111,6 +113,23 @@ body, p, h1, h2, h3, h4, h5, h6, section, article, div {
   text-align: center;
   color: #AAAAAA;
   margin-bottom: 1em; }
+
+.top {
+  list-style: decimal outside;
+  padding-left: 2em;
+  margin-bottom: 2em; }
+
+.top-member {
+  color: #AAAAAA;
+  padding-left: 1em;
+  font: 0.875em 'Lato Regular', sans-serif;
+  margin-bottom: 1em; }
+
+.top-title {
+  display: block; }
+
+.top-author {
+  display: block; }
 
 /* Import state files */
 
