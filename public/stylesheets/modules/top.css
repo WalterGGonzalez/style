@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$darkgray".
+Error: Undefined variable: "$darkgray-dark".
         on line 8 of assets/stylesheets/modules/top.scss
 
 3:   padding-left: 2em;
@@ -7,7 +7,7 @@ Error: Undefined variable: "$darkgray".
 5: }
 6: 
 7: .top-member {
-8:   color: $darkgray;
+8:   color: $darkgray-dark;
 9:   padding-left: 1em;
 10:   font: 0.875em 'Lato Regular', sans-serif;
 11:   margin-bottom: 1em;
@@ -67,4 +67,4 @@ assets/stylesheets/modules/top.scss:8
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$darkgray\".\A         on line 8 of assets/stylesheets/modules/top.scss\A \A 3:   padding-left: 2em;\A 4:   margin-bottom: 2em;\A 5: }\A 6: \A 7: .top-member {\A 8:   color: $darkgray;\A 9:   padding-left: 1em;\A 10:   font: 0.875em 'Lato Regular', sans-serif;\A 11:   margin-bottom: 1em;\A 12: }\A 13: "; }
+  content: "Error: Undefined variable: \"$darkgray-dark\".\A         on line 8 of assets/stylesheets/modules/top.scss\A \A 3:   padding-left: 2em;\A 4:   margin-bottom: 2em;\A 5: }\A 6: \A 7: .top-member {\A 8:   color: $darkgray-dark;\A 9:   padding-left: 1em;\A 10:   font: 0.875em 'Lato Regular', sans-serif;\A 11:   margin-bottom: 1em;\A 12: }\A 13: "; }

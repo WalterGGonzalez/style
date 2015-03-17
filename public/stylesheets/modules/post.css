@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$darkgray".
+Error: Undefined variable: "$darkgray-dark".
         on line 6 of assets/stylesheets/modules/post.scss
 
 1: .post {
@@ -7,7 +7,7 @@ Error: Undefined variable: "$darkgray".
 3: }
 4: 
 5: .post-date {
-6:   background-color: $darkgray;
+6:   background-color: $darkgray-dark;
 7:   color: $white;
 8:   float: left;
 9:   height: 2.5em;
@@ -67,4 +67,4 @@ assets/stylesheets/modules/post.scss:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$darkgray\".\A         on line 6 of assets/stylesheets/modules/post.scss\A \A 1: .post {\A 2:   margin-bottom: 0.625em;\A 3: }\A 4: \A 5: .post-date {\A 6:   background-color: $darkgray;\A 7:   color: $white;\A 8:   float: left;\A 9:   height: 2.5em;\A 10:   margin-left: 1.25em;\A 11:   text-align: center;"; }
+  content: "Error: Undefined variable: \"$darkgray-dark\".\A         on line 6 of assets/stylesheets/modules/post.scss\A \A 1: .post {\A 2:   margin-bottom: 0.625em;\A 3: }\A 4: \A 5: .post-date {\A 6:   background-color: $darkgray-dark;\A 7:   color: $white;\A 8:   float: left;\A 9:   height: 2.5em;\A 10:   margin-left: 1.25em;\A 11:   text-align: center;"; }

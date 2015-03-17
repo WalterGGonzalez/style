@@ -1,17 +1,18 @@
 /*
-Error: Undefined variable: "$whitesmoke".
-        on line 2 of assets/stylesheets/modules/highlighted.scss
+Error: Undefined variable: "$darkgray-light".
+        on line 12 of assets/stylesheets/modules/category-menu.scss
 
-1: .highlighted {
-2:   background-color: $whitesmoke;
-3:   font: 1.375em 'Lato Regular', sans-serif;
-4:   height: 3.125em;
-5:   padding: 1em;
-6:   text-align: center;
-7:   color: $darkgray-dark;
+7:   display: inline-block;
+8:   margin: 0 1em;
+9: }
+10: 
+11: .category-menu-link {
+12:   color: $darkgray-light;
+13:   text-decoration: none;
+14: }
 
 Backtrace:
-assets/stylesheets/modules/highlighted.scss:2
+assets/stylesheets/modules/category-menu.scss:12
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -63,4 +64,4 @@ assets/stylesheets/modules/highlighted.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$whitesmoke\".\A         on line 2 of assets/stylesheets/modules/highlighted.scss\A \A 1: .highlighted {\A 2:   background-color: $whitesmoke;\A 3:   font: 1.375em 'Lato Regular', sans-serif;\A 4:   height: 3.125em;\A 5:   padding: 1em;\A 6:   text-align: center;\A 7:   color: $darkgray-dark;"; }
+  content: "Error: Undefined variable: \"$darkgray-light\".\A         on line 12 of assets/stylesheets/modules/category-menu.scss\A \A 7:   display: inline-block;\A 8:   margin: 0 1em;\A 9: }\A 10: \A 11: .category-menu-link {\A 12:   color: $darkgray-light;\A 13:   text-decoration: none;\A 14: }"; }

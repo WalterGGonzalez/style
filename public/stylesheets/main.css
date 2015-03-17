@@ -73,7 +73,31 @@ p {
   .l-half.last {
     padding-left: 3.125em; }
 
+#header {
+  margin-bottom: 2em; }
+
 /* Import module files */
+.category-menu {
+  text-align: center;
+  font: 0.938em 'Lato Light', sans-serif; }
+
+.category-menu-item {
+  display: inline-block;
+  margin: 0 1em; }
+
+.category-menu-link {
+  color: #999999;
+  text-decoration: none; }
+
+.highlighted {
+  background-color: #F6F6F6;
+  font: 1.375em 'Lato Regular', sans-serif;
+  height: 3.125em;
+  padding: 1em;
+  text-align: center;
+  color: #AAAAAA;
+  margin-bottom: 1em; }
+
 .post {
   margin-bottom: 0.625em; }
 
@@ -104,15 +128,6 @@ p {
 
 .post-info {
   font: 0.938em 'Lato Light', sans-serif; }
-
-.highlighted {
-  background-color: #F6F6F6;
-  font: 1.375em 'Lato Regular', sans-serif;
-  height: 3.125em;
-  padding: 1em;
-  text-align: center;
-  color: #AAAAAA;
-  margin-bottom: 1em; }
 
 .top {
   list-style: decimal outside;
