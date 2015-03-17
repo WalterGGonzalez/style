@@ -1,6 +1,7 @@
 #content {
   margin: 0 auto;
   max-width: 86.875em;
+  overflow: auto;
   width: 100%; }
 
 .l-half {

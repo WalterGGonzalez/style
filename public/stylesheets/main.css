@@ -65,6 +65,7 @@ p {
 #content {
   margin: 0 auto;
   max-width: 86.875em;
+  overflow: auto;
   width: 100%; }
 
 .l-half {
@@ -88,6 +89,11 @@ p {
 .category-menu-link {
   color: #999999;
   text-decoration: none; }
+
+.footer-section {
+  background: #F6F6F6;
+  border-bottom: 2px solid #FFFFFF;
+  height: 12.5em; }
 
 .highlighted {
   background-color: #F6F6F6;
@@ -139,6 +145,8 @@ p {
   padding-left: 1em;
   font: 0.875em 'Lato Regular', sans-serif;
   margin-bottom: 1em; }
+  .top-member:hover {
+    color: #000000; }
 
 .top-title {
   display: block; }
