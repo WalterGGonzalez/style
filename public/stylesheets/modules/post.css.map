@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAIA,UAAW;EACT,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;;AAGb,UAAW;EACT,OAAO,EAAE,KAAK",
-"sources": ["../../../assets/stylesheets/modules/post.scss"],
+"mappings": "AAEA,KAAM;EACJ,aAAa,EAAE,OAAO;;AAGxB,UAAW;EACT,gBAAgB,ECNF,OAAO;EDOrB,KAAK,ECHC,OAAO;EDIb,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;;AAGd,cAAe;EAAE,IAAI,EAAE,0BAA0B;;AACjD,gBAAiB;EAAE,IAAI,EAAE,yBAAyB;;AAElD,UAAW;EACT,gBAAgB,ECpBL,OAAO;EDqBlB,WAAW,EAAE,MAAM;EACnB,OAAO,EAAE,KAAK;EACd,KAAK,ECpBA,OAAO;;ADuBd,WAAY;EACV,IAAI,EAAE,oCAAoC;EAC1C,aAAa,EAAE,OAAO;;AAGxB,UAAW;EACT,IAAI,EAAE,qCAAqC",
+"sources": ["../../../assets/stylesheets/modules/post.scss","../../../assets/stylesheets/colors.scss"],
 "names": [],
 "file": "post.css"
 }

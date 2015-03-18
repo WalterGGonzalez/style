@@ -12,8 +12,8 @@
   width: 2.5em;
 }
 
-.post-date-day { font: 1.125em 'Lato Regular', sans-serif; }
-.post-date-month { font: 0.75em 'Lato Regular', sans-serif; }
+.post-date-day { font: 1.125em 'Lato', sans-serif; }
+.post-date-month { font: 0.75em 'Lato', sans-serif; }
 
 .post-body {
   background-color: $whitesmoke;
@@ -23,10 +23,10 @@
 }
 
 .post-title {
-  font: 1.25em 'Lato Regular', sans-serif;
+  font: normal 400 1.25em 'Lato', sans-serif;
   margin-bottom: 0.625em;
 }
 
 .post-info {
-  font: 0.938em 'Lato Light', sans-serif;
+  font: normal 300 0.938em 'Lato', sans-serif;
 }
