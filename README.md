@@ -11,6 +11,6 @@ to install the bower package simply run
 
 ## Sass precompiler
 
-``sass --watch assets/styleseets/:public/stylesheets/``` will watch and precompile
+```sass --watch assets/stylesheets/:public/stylesheets/``` will watch and precompile
 your scss files into css for publishing via the bower package manager.
 
