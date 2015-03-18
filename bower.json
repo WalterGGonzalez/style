@@ -16,5 +16,8 @@
     "test",
     "tests",
     "assets"
-  ]
+  ],
+  "dependencies": {
+    "susy": "~2.2.2"
+  }
 }
