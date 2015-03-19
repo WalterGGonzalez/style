@@ -18,6 +18,10 @@
     "assets"
   ],
   "dependencies": {
-    "susy": "~2.2.2"
+    "susy": "~2.2.2",
+    "breakpoint": "~4.6.4"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "~2.5.0"
   }
 }

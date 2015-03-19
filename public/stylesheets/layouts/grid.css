@@ -1,0 +1,92 @@
+/* Changing Susy default global settings */
+/* Makes border-box properties */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Tells Susy there's 8 columns in the content */
+.main {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.125), rgba(77, 77, 255, 0.125) 80%, transparent 80%);
+  background-size: 8.47458%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top; }
+  .main:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.content, .sidebar {
+  height: 200px;
+  padding: 15px;
+  font-weight: bold;
+  font-family: Lato; }
+
+.content {
+  background: red; }
+  @media (min-width: 320px) {
+    .content {
+      background: rgba(0, 0, 255, 0.1); } }
+  @media (min-width: 640px) {
+    .content {
+      width: 66.10169%;
+      float: left;
+      margin-right: 1.69492%;
+      background: rgba(0, 0, 255, 0.3); } }
+  @media (min-width: 800px) {
+    .content {
+      width: 66.10169%;
+      float: left;
+      margin-right: 1.69492%;
+      background: rgba(0, 0, 255, 0.5); } }
+  @media (min-width: 1024px) {
+    .content {
+      width: 66.10169%;
+      float: left;
+      margin-right: 1.69492%;
+      background: blue;
+      color: white; } }
+
+/* Tells Susy there's 4 columns in the sidebar, and its the last item on the row. */
+.sidebar {
+  background: orange; }
+  @media (min-width: 320px) {
+    .sidebar {
+      background: rgba(0, 128, 0, 0.1); } }
+  @media (min-width: 640px) {
+    .sidebar {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%;
+      float: right;
+      margin-right: 0;
+      background: rgba(0, 128, 0, 0.3); } }
+  @media (min-width: 800px) {
+    .sidebar {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%;
+      float: right;
+      margin-right: 0;
+      background: rgba(0, 128, 0, 0.5); } }
+  @media (min-width: 1024px) {
+    .sidebar {
+      width: 32.20339%;
+      float: left;
+      margin-right: 1.69492%;
+      float: right;
+      margin-right: 0;
+      background: green;
+      color: white; } }
+
+.hidden-tiny {
+  display: none; }
+  @media (min-width: 320px) {
+    .hidden-tiny {
+      display: block; } }
+
+/*# sourceMappingURL=grid.css.map */
