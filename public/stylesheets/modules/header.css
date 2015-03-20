@@ -1,18 +1,21 @@
 /*
-Error: Undefined variable: "$darkgray-light".
-        on line 13 of assets/stylesheets/modules/category-menu.scss
+Error: Undefined variable: "$cadetblue".
+        on line 22 of assets/stylesheets/modules/header.scss
 
-8:   display: inline-block;
-9:   margin: 0 1em;
-10: }
-11: 
-12: .category-menu-link {
-13:   color: $darkgray-light;
-14:   text-decoration: none;
-15: }
+17:   margin: 1.875em;
+18:   width: 2em;
+19: }
+20: 
+21: .header-options {
+22:   background-color: $cadetblue;
+23:   border-radius: 2em;
+24:   float: left;
+25:   height: 4em;
+26:   width: 4em;
+27:   margin: 1.875em;
 
 Backtrace:
-assets/stylesheets/modules/category-menu.scss:13
+assets/stylesheets/modules/header.scss:22
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -64,4 +67,4 @@ assets/stylesheets/modules/category-menu.scss:13
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$darkgray-light\".\A         on line 13 of assets/stylesheets/modules/category-menu.scss\A \A 8:   display: inline-block;\A 9:   margin: 0 1em;\A 10: }\A 11: \A 12: .category-menu-link {\A 13:   color: $darkgray-light;\A 14:   text-decoration: none;\A 15: }"; }
+  content: "Error: Undefined variable: \"$cadetblue\".\A         on line 22 of assets/stylesheets/modules/header.scss\A \A 17:   margin: 1.875em;\A 18:   width: 2em;\A 19: }\A 20: \A 21: .header-options {\A 22:   background-color: $cadetblue;\A 23:   border-radius: 2em;\A 24:   float: left;\A 25:   height: 4em;\A 26:   width: 4em;\A 27:   margin: 1.875em;"; }
