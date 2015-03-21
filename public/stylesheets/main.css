@@ -222,12 +222,20 @@ p {
 
 .highlighted {
   background-color: #F6F6F6;
-  font: 1.375em 'Lato Regular', sans-serif;
+  font: normal 400 1.375em 'Lato', sans-serif;
   height: 3.125em;
-  padding: 1em;
+  padding: 0.6em;
   text-align: center;
   color: #AAAAAA;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  line-height: 45px; }
+
+.highlighted-icon {
+  display: inline-block;
+  background: url("../images/ci2015_blog_assets.svg") -10px -105px no-repeat;
+  width: 40px;
+  height: 40px;
+  vertical-align: -0.625em; }
 
 .post {
   margin-bottom: 0.625em; }
@@ -278,6 +286,23 @@ p {
 
 .top-author {
   display: block; }
+
+.related-links {
+  font: normal 400 0.875em 'Lato', sans-serif;
+  color: #AAAAAA; }
+
+.related-links-icon {
+  background: url("../images/ci2015_blog_assets.svg") -165px -105px no-repeat;
+  width: 40px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: -3px; }
+  .related-links-icon.archive {
+    background-position: -170px -105px; }
+  .related-links-icon.github {
+    background-position: -210px -105px; }
+  .related-links-icon.magma {
+    background-position: -250px -105px; }
 
 /* Import state files */
 

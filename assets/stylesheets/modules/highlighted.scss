@@ -1,9 +1,18 @@
 .highlighted {
   background-color: $whitesmoke;
-  font: 1.375em 'Lato Regular', sans-serif;
+  font: normal 400 1.375em 'Lato', sans-serif;
   height: 3.125em;
-  padding: 1em;
+  padding: 0.6em;
   text-align: center;
   color: $darkgray-dark;
   margin-bottom: 1em;
+  line-height: 45px;
+}
+
+.highlighted-icon {
+  display: inline-block;
+  background: url('../images/ci2015_blog_assets.svg') -10px -105px no-repeat;
+  width: 40px;
+  height: 40px;
+  vertical-align: -0.625em;
 }

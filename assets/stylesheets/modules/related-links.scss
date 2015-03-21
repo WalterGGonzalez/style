@@ -1,0 +1,15 @@
+.related-links {
+  font: normal 400 0.875em 'Lato', sans-serif;
+  color: $darkgray-dark;
+}
+
+.related-links-icon {
+  background: url('../images/ci2015_blog_assets.svg') -165px -105px no-repeat;
+  width: 40px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: -3px;
+  &.archive { background-position: -170px -105px; }
+  &.github { background-position: -210px -105px; }
+  &.magma { background-position: -250px -105px; }
+}
