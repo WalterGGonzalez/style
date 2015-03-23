@@ -1,0 +1,117 @@
+@import '../../../bower_components/susy/sass/_susy';
+@import '../../../bower_components/breakpoint-sass/stylesheets/_breakpoint';
+
+$susy: (
+  columns: 12,
+  container: 1390px,
+  global-box-sizing: border-box,
+  box-sizing: border-box,
+  debug: (
+    image: show,
+    color: rgba(blue, 0.125),
+    output: background
+  )
+);
+
+.main {
+  @include container;
+}
+
+.l-one-column {
+  @include span(1);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-two-column {
+  @include span(2);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-three-column {
+  @include span(3);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-four-column {
+  @include span(4);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-five-column {
+  @include span(5);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-six-column {
+  @include span(6);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-seven-column {
+  @include span(7);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-eight-column {
+  @include span(8);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-nine-column {
+  @include span(9);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-ten-column {
+  @include span(10);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
+
+.l-eleven-column {
+  @include span(11);
+  background: red;
+  border: 1px solid black;
+  &.last {
+    @include last;
+  }
+}
