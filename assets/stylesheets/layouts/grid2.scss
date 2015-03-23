@@ -3,9 +3,9 @@
 
 $susy: (
   columns: 12,
-  container: 1390px,
   global-box-sizing: border-box,
   box-sizing: border-box,
+  gutters: 0,
   debug: (
     image: show,
     color: rgba(blue, 0.125),
@@ -13,105 +13,105 @@ $susy: (
   )
 );
 
-.main {
-  @include container;
+// resolutions
+
+$bp-tiny: max-width 320px;
+$bp-small: max-width 640px;
+$bp-medium: max-width 800px;
+$bp-large: max-width 1024px;
+
+.main-fixed {
+  @include container(1390px);
+}
+
+.main-fluid {
+  @include container(100%);
 }
 
 .l-one-column {
   @include span(1);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-two-column {
   @include span(2);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-three-column {
   @include span(3);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-four-column {
   @include span(4);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-five-column {
   @include span(5);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-six-column {
   @include span(6);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-seven-column {
   @include span(7);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-eight-column {
   @include span(8);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-nine-column {
   @include span(9);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-ten-column {
   @include span(10);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
 
 .l-eleven-column {
   @include span(11);
-  background: red;
   border: 1px solid black;
-  &.last {
-    @include last;
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
