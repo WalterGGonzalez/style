@@ -1,0 +1,117 @@
+@import '../../../bower_components/susy/sass/_susy';
+@import '../../../bower_components/breakpoint-sass/stylesheets/_breakpoint';
+
+$susy: (
+  columns: 12,
+  global-box-sizing: border-box,
+  box-sizing: border-box,
+  gutters: 0,
+  debug: (
+    image: show,
+    color: rgba(blue, 0.125),
+    output: background
+  )
+);
+
+// resolutions
+
+$bp-tiny: max-width 320px;
+$bp-small: max-width 640px;
+$bp-medium: max-width 800px;
+$bp-large: max-width 1024px;
+
+.main-fixed {
+  @include container(1390px);
+}
+
+.main-fluid {
+  @include container(100%);
+}
+
+.l-one-column {
+  @include span(1);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-two-column {
+  @include span(2);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-three-column {
+  @include span(3);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-four-column {
+  @include span(4);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-five-column {
+  @include span(5);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-six-column {
+  @include span(6);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-seven-column {
+  @include span(7);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-eight-column {
+  @include span(8);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-nine-column {
+  @include span(9);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-ten-column {
+  @include span(10);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-eleven-column {
+  @include span(11);
+  border: 1px solid black;
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}

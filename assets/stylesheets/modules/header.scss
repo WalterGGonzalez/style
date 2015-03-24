@@ -1,0 +1,39 @@
+.header {
+  height: 8.750em;
+  overflow: auto;
+}
+
+.header-logo {
+  background: url('../images/ci2015_blog_assets.svg') no-repeat;
+  height: 5em;
+  margin: 0 auto;
+  width: 11em;
+}
+
+.header-search {
+  background: url('../images/ci2015_blog_assets.svg') -115px -110px no-repeat;
+  float: right;
+  height: 2em;
+  margin: 1.875em;
+  width: 2em;
+}
+
+.header-options {
+  background-color: $breaker-bay;
+  border-radius: 2em;
+  float: left;
+  height: 4em;
+  width: 4em;
+  margin: 1.875em;
+}
+
+.header-options-line {
+  background-color: $white;
+  display: block;
+  height: 0.188em;
+  margin: 0 auto 0.313em;
+  width: 1.563em;
+  &:first-child {
+    margin: 1.375em auto 0.313em;
+  }
+}

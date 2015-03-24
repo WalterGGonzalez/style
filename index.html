@@ -3,9 +3,19 @@
   <head>
     <title>Dummy html for test styles</title>
     <link rel='stylesheet' href='public/stylesheets/main.css'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewpoint'>
   </head>
   <body>
     <section id='header'>
+      <section class='header'>
+        <div class='header-options'>
+          <span class='header-options-line'></span>
+          <span class='header-options-line'></span>
+          <span class='header-options-line'></span>
+        </div>
+        <div class='header-search'></div>
+        <div class='header-logo'></div>
+      </section>
       <nav>
         <ul class='category-menu'>
           <li class='category-menu-item'><a href='#' class='category-menu-link'>Home</a></li>
@@ -86,9 +96,10 @@
         </article>
       </section>
       <section class='l-half last'>
-        <section class='highlighted'>
-          <h2>TOP 5</h2>
-        </section>
+        <h2 class='highlighted'>
+          <span class='highlighted-icon'></span>
+          TOP 5
+        </h2>
         <ul class='top'>
           <li class='top-member'>
             <p class='top-info'>
@@ -126,9 +137,19 @@
             </p>
           </li>
         </ul>
-        <section class='highlighted'>
-          <h2>Links</h2>
-        </section>
+        <h2 class='highlighted'>Links</h2>
+        <div class='related-links'>
+          <span class='related-links-icon archive'></span>
+          Blog Archive
+        </div>
+        <div class='related-links'>
+          <span class='related-links-icon github'></span>
+          Our Github page
+        </div>
+        <div class='related-links'>
+          <span class='related-links-icon magma'></span>
+          Magma Conf 2015
+        </div>
       </section>
     </section>
     <section id='footer'>

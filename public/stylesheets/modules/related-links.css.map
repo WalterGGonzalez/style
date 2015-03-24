@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,cAAe;EACb,IAAI,EAAE,qCAAqC;;AAG7C,mBAAoB;EAClB,UAAU,EAAE,+DAA+D;EAC3E,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,YAAY",
+"sources": ["../../../assets/stylesheets/modules/related-links.scss"],
+"names": [],
+"file": "related-links.css"
+}

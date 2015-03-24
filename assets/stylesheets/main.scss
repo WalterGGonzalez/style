@@ -10,14 +10,17 @@
 @import 'layouts/footer';
 @import 'layouts/header';
 @import 'layouts/grid';
+@import 'layouts/grid2';
 
 /* Import module files */
 @import 'modules/category-menu';
 @import 'modules/footer-section';
+@import 'modules/header';
 @import 'modules/highlighted';
 
 @import 'modules/post';
 @import 'modules/top';
+@import 'modules/related-links';
 
 /* Import state files */
 @import 'state';
