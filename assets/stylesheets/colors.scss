@@ -1,6 +1,28 @@
-$whitesmoke: #F6F6F6;
-$darkgray-dark: #AAAAAA;
-$darkgray-light: #999999;
-$dark: #222222;
-$black: #000000;
-$white: #FFFFFF;
+// Primary Colors
+$white:           #FFFFFF;
+$black:           #000000;
+$breaker-bay:     #56A094;
+$wild-sand:       #F6F6F6;
+$silver-chalice:  #AAAAAA;
+$mine-shaft:      #333333;
+
+// Secondary Colors
+$punch:           #D84A28;
+$tango:           #EB7C24;
+$fun-blue:        #1B6BB5;
+$oracle:          #377267;
+$black-haze:      #EFF0F0;
+$dust-gray:       #999999;
+
+.white { color: $white }
+.breaker-bay { color: $breaker-bay }
+.wild-sand { color: $wild-sand }
+.silver-chalice { color: $silver-chalice }
+.mine-shaft { color: $mine-shaft }
+.punch { color: $punch }
+.tango { color: $tango }
+.fun-blue { color: $fun-blue }
+.oracle { color: $oracle }
+.black-haze { color: $black-haze }
+.black { color: $black }
+.dust-gray { color: $dust-gray }

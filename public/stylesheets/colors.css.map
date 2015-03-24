@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAgBA,MAAO;EAAE,KAAK,EAfI,OAAO;;AAgBzB,YAAa;EAAE,KAAK,EAdF,OAAO;;AAezB,UAAW;EAAE,KAAK,EAdA,OAAO;;AAezB,eAAgB;EAAE,KAAK,EAdL,OAAO;;AAezB,WAAY;EAAE,KAAK,EAdD,OAAO;;AAezB,MAAO;EAAE,KAAK,EAZI,OAAO;;AAazB,MAAO;EAAE,KAAK,EAZI,OAAO;;AAazB,SAAU;EAAE,KAAK,EAZC,OAAO;;AAazB,OAAQ;EAAE,KAAK,EAZG,OAAO;;AAazB,WAAY;EAAE,KAAK,EAZD,OAAO;;AAazB,MAAO;EAAE,KAAK,EAxBI,OAAO;;AAyBzB,UAAW;EAAE,KAAK,EAbA,OAAO",
+"sources": ["../../assets/stylesheets/colors.scss"],
 "names": [],
 "file": "colors.css"
 }

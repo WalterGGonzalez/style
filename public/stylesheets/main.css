@@ -50,6 +50,42 @@
   font-weight: 900;
   src: local("Lato Black Italic"), local("Lato-BlackItalic"), url(http://fonts.gstatic.com/l/font?kit=5-SliAaOFvCUVkONJSRRQ9oLqSWmDCRj17QBVup6CqJMKDW7wr8-mFUtZxX0An9Hxjwkr35EAwjGz2xBtHyf46VYFdkcnG3BQC4BAwdRBqtuAtmJ8SPLz6DEExiJ-m1d) format("woff2"); }
 /* Import base styles*/
+.white {
+  color: #FFFFFF; }
+
+.breaker-bay {
+  color: #56A094; }
+
+.wild-sand {
+  color: #F6F6F6; }
+
+.silver-chalice {
+  color: #AAAAAA; }
+
+.mine-shaft {
+  color: #333333; }
+
+.punch {
+  color: #D84A28; }
+
+.tango {
+  color: #EB7C24; }
+
+.fun-blue {
+  color: #1B6BB5; }
+
+.oracle {
+  color: #377267; }
+
+.black-haze {
+  color: #EFF0F0; }
+
+.black {
+  color: #000000; }
+
+.dust-gray {
+  color: #999999; }
+
 html {
   font-size: 16px; }
 
@@ -217,7 +253,7 @@ p {
   background-color: #F6F6F6;
   margin-left: 3.75em;
   padding: 2.5em;
-  color: #222222; }
+  color: #333333; }
 
 .post-title {
   font: normal 400 1.25em 'Lato', sans-serif;
