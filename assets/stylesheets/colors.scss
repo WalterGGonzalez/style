@@ -28,7 +28,7 @@ $colors-list: white $white,
               dust-gray $dust-gray;
 
 @each $context in $colors-list {
-    .#{nth($context,1)} {
+    .f-#{nth($context,1)} {
       color: nth($context, 2);
     }
     .bg-#{nth($context,1)} {
