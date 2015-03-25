@@ -8,13 +8,7 @@ $susy: (
   /* Tells Susy that the container has a max-width of 1120px */
   container: 1120px,
   /* Tells Susy to use border-box */
-  global-box-sizing: border-box,
-  /* Debug config for debugging */
-  debug: (
-    image: show,
-    color: rgba(blue, .125),
-    output: background
-  )
+  global-box-sizing: border-box
 );
 
 $bp-tiny: 320px;
