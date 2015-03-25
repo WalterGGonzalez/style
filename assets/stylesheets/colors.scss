@@ -1,4 +1,3 @@
-// Primary Colors
 $white:           #FFFFFF;
 $black:           #000000;
 $breaker-bay:     #56A094;
@@ -15,15 +14,24 @@ $black-haze:      #EFF0F0;
 $dust-gray:       #999999;
 $silver:          #CCCCCC;
 
-.white { color: $white }
-.breaker-bay { color: $breaker-bay }
-.wild-sand { color: $wild-sand }
-.silver-chalice { color: $silver-chalice }
-.mine-shaft { color: $mine-shaft }
-.punch { color: $punch }
-.tango { color: $tango }
-.fun-blue { color: $fun-blue }
-.oracle { color: $oracle }
-.black-haze { color: $black-haze }
-.black { color: $black }
-.dust-gray { color: $dust-gray }
+$colors-list: white $white,
+              black $black,
+              breaker-bay $breaker-bay,
+              wild-sand $wild-sand,
+              silver-chalice $silver-chalice,
+              mine-shaft $mine-shaft,
+              punch $punch,
+              tango $tango,
+              fun-blue $fun-blue,
+              oracle $oracle,
+              black-haze $black-haze,
+              dust-gray $dust-gray;
+
+@each $context in $colors-list {
+    .#{nth($context,1)} {
+      color: nth($context, 2);
+    }
+    .bg-#{nth($context,1)} {
+        background: nth($context, 2);
+    }
+}

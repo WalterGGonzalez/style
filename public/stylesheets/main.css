@@ -159,38 +159,74 @@ h3, h4 {
 .white {
   color: #FFFFFF; }
 
-.breaker-bay {
-  color: #56A094; }
-
-.wild-sand {
-  color: #F6F6F6; }
-
-.silver-chalice {
-  color: #AAAAAA; }
-
-.mine-shaft {
-  color: #333333; }
-
-.punch {
-  color: #D84A28; }
-
-.tango {
-  color: #EB7C24; }
-
-.fun-blue {
-  color: #1B6BB5; }
-
-.oracle {
-  color: #377267; }
-
-.black-haze {
-  color: #EFF0F0; }
+.bg-white {
+  background: #FFFFFF; }
 
 .black {
   color: #000000; }
 
+.bg-black {
+  background: #000000; }
+
+.breaker-bay {
+  color: #56A094; }
+
+.bg-breaker-bay {
+  background: #56A094; }
+
+.wild-sand {
+  color: #F6F6F6; }
+
+.bg-wild-sand {
+  background: #F6F6F6; }
+
+.silver-chalice {
+  color: #AAAAAA; }
+
+.bg-silver-chalice {
+  background: #AAAAAA; }
+
+.mine-shaft {
+  color: #333333; }
+
+.bg-mine-shaft {
+  background: #333333; }
+
+.punch {
+  color: #D84A28; }
+
+.bg-punch {
+  background: #D84A28; }
+
+.tango {
+  color: #EB7C24; }
+
+.bg-tango {
+  background: #EB7C24; }
+
+.fun-blue {
+  color: #1B6BB5; }
+
+.bg-fun-blue {
+  background: #1B6BB5; }
+
+.oracle {
+  color: #377267; }
+
+.bg-oracle {
+  background: #377267; }
+
+.black-haze {
+  color: #EFF0F0; }
+
+.bg-black-haze {
+  background: #EFF0F0; }
+
 .dust-gray {
   color: #999999; }
+
+.bg-dust-gray {
+  background: #999999; }
 
 html {
   font-size: 16px;
