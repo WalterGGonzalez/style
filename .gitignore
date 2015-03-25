@@ -1,3 +1,4 @@
 .sass-cache/*
 .ruby-version
 /bower_components
+.DS_Store

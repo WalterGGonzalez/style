@@ -23,7 +23,7 @@
 @import 'modules/top';
 @import 'modules/related-links';
 
-/* Import state files */
+/* Import state and helper files */
+@import 'helpers';
 @import 'state';
-
 
