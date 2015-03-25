@@ -1,0 +1,25 @@
+.icon-search {
+  background: url("../images/ci2015_blog_assets.svg") -115px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-top {
+  background: url("../images/ci2015_blog_assets.svg") -13px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-comments {
+  background: url("../images/ci2015_blog_assets.svg") -50px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-comment {
+  background: url("../images/ci2015_blog_assets.svg") -228px -168px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+/*# sourceMappingURL=icons.css.map */

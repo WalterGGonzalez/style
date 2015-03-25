@@ -4,12 +4,7 @@
   box-sizing: border-box;
   max-width: 1390px;
   margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.125), rgba(77, 77, 255, 0.125) 100%, transparent 100%);
-  background-size: 8.33333%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top; }
+  margin-right: auto; }
   .main-fixed:after {
     content: " ";
     display: block;
@@ -21,12 +16,7 @@
   box-sizing: border-box;
   max-width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.125), rgba(77, 77, 255, 0.125) 100%, transparent 100%);
-  background-size: 8.33333%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top; }
+  margin-right: auto; }
   .main-fluid:after {
     content: " ";
     display: block;

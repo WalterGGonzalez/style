@@ -210,12 +210,7 @@ p {
   box-sizing: border-box;
   max-width: 1390px;
   margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.125), rgba(77, 77, 255, 0.125) 100%, transparent 100%);
-  background-size: 8.33333%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top; }
+  margin-right: auto; }
   .main-fixed:after {
     content: " ";
     display: block;
@@ -227,12 +222,7 @@ p {
   box-sizing: border-box;
   max-width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.125), rgba(77, 77, 255, 0.125) 100%, transparent 100%);
-  background-size: 8.33333%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top; }
+  margin-right: auto; }
   .main-fluid:after {
     content: " ";
     display: block;
@@ -560,6 +550,30 @@ p {
     background-position: -210px -105px; }
   .related-links-icon.magma {
     background-position: -250px -105px; }
+
+.icon-search {
+  background: url("../images/ci2015_blog_assets.svg") -115px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-top {
+  background: url("../images/ci2015_blog_assets.svg") -13px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-comments {
+  background: url("../images/ci2015_blog_assets.svg") -50px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-comment {
+  background: url("../images/ci2015_blog_assets.svg") -228px -168px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
 
 /* Import state files */
 
