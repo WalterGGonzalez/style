@@ -3,7 +3,14 @@
   overflow: auto;
 }
 
-.header-logo {
+.header-logo-main {
+  background: url('../images/ci2015_blog_assets.svg') -315px 0px no-repeat;
+  height: 8em;
+  margin: 0 auto;
+  width: 16em;
+}
+
+.header-logo-internal-pages {
   background: url('../images/ci2015_blog_assets.svg') no-repeat;
   height: 5em;
   margin: 0 auto;

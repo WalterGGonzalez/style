@@ -14,8 +14,7 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests",
-    "assets"
+    "tests"
   ],
   "dependencies": {
     "susy": "~2.2.2",

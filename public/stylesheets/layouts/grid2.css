@@ -27,8 +27,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 8.33333%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-one-column {
       -moz-box-sizing: border-box;
@@ -44,8 +43,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 16.66667%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-two-column {
       -moz-box-sizing: border-box;
@@ -61,8 +59,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 25%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-three-column {
       -moz-box-sizing: border-box;
@@ -78,8 +75,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 33.33333%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-four-column {
       -moz-box-sizing: border-box;
@@ -95,8 +91,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 41.66667%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-five-column {
       -moz-box-sizing: border-box;
@@ -112,8 +107,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 50%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-six-column {
       -moz-box-sizing: border-box;
@@ -129,8 +123,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 58.33333%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-seven-column {
       -moz-box-sizing: border-box;
@@ -146,8 +139,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 66.66667%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-eight-column {
       -moz-box-sizing: border-box;
@@ -163,8 +155,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 75%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-nine-column {
       -moz-box-sizing: border-box;
@@ -180,8 +171,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 83.33333%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-ten-column {
       -moz-box-sizing: border-box;
@@ -197,8 +187,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 91.66667%;
-  float: left;
-  border: 1px solid black; }
+  float: left; }
   @media (max-width: 1024px) {
     .l-eleven-column {
       -moz-box-sizing: border-box;
