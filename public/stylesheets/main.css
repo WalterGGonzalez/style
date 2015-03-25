@@ -582,8 +582,6 @@ p {
   .related-links-icon.magma {
     background-position: -250px -105px; }
 
-/* Import state files */
+/* Import state and helper files */
 .text-center {
   text-align: center; }
-
-/*# sourceMappingURL=main.css.map */
