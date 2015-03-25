@@ -12,6 +12,7 @@ $fun-blue:        #1B6BB5;
 $oracle:          #377267;
 $black-haze:      #EFF0F0;
 $dust-gray:       #999999;
+$silver:          #CCCCCC;
 
 $colors-list: white $white,
               black $black,
@@ -27,7 +28,7 @@ $colors-list: white $white,
               dust-gray $dust-gray;
 
 @each $context in $colors-list {
-    .#{nth($context,1)} {
+    .f-#{nth($context,1)} {
       color: nth($context, 2);
     }
     .bg-#{nth($context,1)} {
