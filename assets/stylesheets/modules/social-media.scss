@@ -1,34 +1,5 @@
-.social-media-twitter {
-  background: url('../images/ci2015_blog_assets.svg') -20px -420px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 2.5em;
-}
-
-.social-media-facebook {
-  background: url('../images/ci2015_blog_assets.svg') -90px -420px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 2.5em;
-}
-
-.social-media-google {
-  background: url('../images/ci2015_blog_assets.svg') -160px -420px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 2.5em;
-}
-
-.social-media-github {
-  background: url('../images/ci2015_blog_assets.svg') -230px -420px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 2.5em;
-}
-
-.social-media-linkedin {
-  background: url('../images/ci2015_blog_assets.svg') -300px -420px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 2.5em;
-}
+.social-media-twitter { @include icons(-20px, -420px, 2.5em, 2.5em); }
+.social-media-facebook { @include icons(-90px, -420px, 2.5em, 2.5em); }
+.social-media-google { @include icons(-160px, -420px, 2.5em, 2.5em); }
+.social-media-github { @include icons(-230px, -420px, 2.5em, 2.5em); }
+.social-media-linkedin { @include icons(-300px, -420px, 2.5em, 2.5em); }

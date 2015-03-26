@@ -1,0 +1,7 @@
+@mixin icons($x, $y, $height: 2em, $width: 2em) {
+  background: url('../images/ci2015_blog_assets.svg') $x $y no-repeat;
+  display: inline-block;
+  height: $height;
+  width: $width;
+}
+
