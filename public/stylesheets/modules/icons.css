@@ -1,24 +1,23 @@
 /*
-Error: Undefined variable: "$breaker-bay".
-        on line 29 of assets/stylesheets/modules/header.scss
+Error: Undefined mixin 'icons'.
+        on line 1 of assets/stylesheets/modules/icons.scss, in `icons'
+        from line 1 of assets/stylesheets/modules/icons.scss
 
-24:   margin: 1.875em;
-25:   width: 2em;
-26: }
-27: 
-28: .header-options {
-29:   background-color: $breaker-bay;
-30:   border-radius: 2em;
-31:   float: left;
-32:   height: 4em;
-33:   width: 4em;
-34:   margin: 1.875em;
+1: .icon-search { @include icons(-115px, -110px); }
+2: .icon-top { @include icons(-13px, -110px); }
+3: .icon-comments { @include icons(-50px, -110px); }
+4: .icon-comment { @include icons(-228px, -168px); }
+5: .icon-archive { @include icons(-160px, -110px); }
+6: .icon-github { @include icons(-205px, -110px); }
 
 Backtrace:
-assets/stylesheets/modules/header.scss:29
-/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+assets/stylesheets/modules/icons.scss:1:in `icons'
+assets/stylesheets/modules/icons.scss:1
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:98:in `with_mixin'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
@@ -66,4 +65,4 @@ assets/stylesheets/modules/header.scss:29
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$breaker-bay\".\A         on line 29 of assets/stylesheets/modules/header.scss\A \A 24:   margin: 1.875em;\A 25:   width: 2em;\A 26: }\A 27: \A 28: .header-options {\A 29:   background-color: $breaker-bay;\A 30:   border-radius: 2em;\A 31:   float: left;\A 32:   height: 4em;\A 33:   width: 4em;\A 34:   margin: 1.875em;"; }
+  content: "Error: Undefined mixin 'icons'.\A         on line 1 of assets/stylesheets/modules/icons.scss, in `icons'\A         from line 1 of assets/stylesheets/modules/icons.scss\A \A 1: .icon-search { @include icons(-115px, -110px); }\A 2: .icon-top { @include icons(-13px, -110px); }\A 3: .icon-comments { @include icons(-50px, -110px); }\A 4: .icon-comment { @include icons(-228px, -168px); }\A 5: .icon-archive { @include icons(-160px, -110px); }\A 6: .icon-github { @include icons(-205px, -110px); }"; }
