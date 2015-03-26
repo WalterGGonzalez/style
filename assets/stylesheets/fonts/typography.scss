@@ -48,6 +48,12 @@
   }
 }
 
+%blockquote {
+  @extend %lato-light;
+  color: $dust-gray;
+  font-size: 1.125em;
+}
+
 %title3 { @extend %lato-bold; }
 
 h1 { @extend %title1; }
@@ -55,3 +61,4 @@ h2 { @extend %title2; }
 h3 { @extend %title3; }
 h4 { @extend %title4; }
 p { @extend %paragraph; }
+blockquote { @extend %blockquote }
