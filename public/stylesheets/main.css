@@ -158,7 +158,7 @@
     .hidden-tiny {
       display: block; } }
 
-h1 {
+h1, p, blockquote {
   font-family: 'Lato';
   font-weight: 100; }
 
@@ -190,6 +190,19 @@ h3, h4 {
   @media (max-width: 320px) {
     h3, h4 {
       font-size: 1.063em; } }
+
+p {
+  color: #333333;
+  font-size: 0.938em;
+  max-width: 804px; }
+  @media (max-width: 320px) {
+    p {
+      font-size: 1.063em;
+      max-width: 100%; } }
+
+blockquote {
+  color: #999999;
+  font-size: 1.125em; }
 
 /* Import base styles*/
 .f-white {
@@ -268,13 +281,14 @@ html {
   font-size: 16px;
   font-family: 'Lato'; }
 
-body, p, h1, h2, h3, h4, h5, h6, section, article, div, ul, li {
+body, p, h1, h2, h3, h4, h5, h6, section, article, div, ul, li, blockquote {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 p {
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  margin: 0 auto; }
 
 /* Import layout files */
 #content {
@@ -604,7 +618,7 @@ p {
   background: url("../images/ci2015_blog_assets.svg") -295px 0px no-repeat;
   height: 8em;
   margin: 0 auto;
-  width: 16em; }
+  width: 14em; }
 
 .header-logo-internal-pages {
   background: url("../images/ci2015_blog_assets.svg") no-repeat;
