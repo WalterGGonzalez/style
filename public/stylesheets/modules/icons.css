@@ -1,161 +1,68 @@
-.icon-search {
-  background: url("../images/ci2015_blog_assets.svg") -115px -110px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
+/*
+Error: Undefined mixin 'icons'.
+        on line 1 of assets/stylesheets/modules/icons.scss, in `icons'
+        from line 1 of assets/stylesheets/modules/icons.scss
 
-.icon-top {
-  background: url("../images/ci2015_blog_assets.svg") -13px -110px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
+1: .icon-search { @include icons(-115px, -110px); }
+2: .icon-top { @include icons(-13px, -110px); }
+3: .icon-comments { @include icons(-50px, -110px); }
+4: .icon-comment { @include icons(-228px, -168px); }
+5: .icon-archive { @include icons(-160px, -110px); }
+6: .icon-github { @include icons(-205px, -110px); }
 
-.icon-comments {
-  background: url("../images/ci2015_blog_assets.svg") -50px -110px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-comment {
-  background: url("../images/ci2015_blog_assets.svg") -228px -168px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-archive {
-  background: url("../images/ci2015_blog_assets.svg") -160px -110px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-github {
-  background: url("../images/ci2015_blog_assets.svg") -205px -110px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-magma {
-  background: url("../images/ci2015_blog_assets.svg") -245px -110px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-left-light-arrow {
-  background: url("../images/ci2015_blog_assets.svg") -10px -168px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-left-dark-arrow {
-  background: url("../images/ci2015_blog_assets.svg") -70px -168px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-right-dark-arrow {
-  background: url("../images/ci2015_blog_assets.svg") -100px -168px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-right-light-arrow {
-  background: url("../images/ci2015_blog_assets.svg") -40px -168px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-horn {
-  background: url("../images/ci2015_blog_assets.svg") -20px -230px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-twitter {
-  background: url("../images/ci2015_blog_assets.svg") -20px -270px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-facebook {
-  background: url("../images/ci2015_blog_assets.svg") -20px -310px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-codeschool {
-  background: url("../images/ci2015_blog_assets.svg") -20px -350px no-repeat;
-  display: inline-block;
-  height: 2em;
-  width: 2em; }
-
-.icon-pending-green {
-  background: url("../images/ci2015_blog_assets.svg") -20px -500px no-repeat;
-  display: inline-block;
-  height: 4em;
-  width: 4em; }
-
-.icon-pending-orange {
-  background: url("../images/ci2015_blog_assets.svg") -120px -500px no-repeat;
-  display: inline-block;
-  height: 4em;
-  width: 4em; }
-
-.icon-pending-blue {
-  background: url("../images/ci2015_blog_assets.svg") -220px -500px no-repeat;
-  display: inline-block;
-  height: 4em;
-  width: 4em; }
-
-.icon-opensource-jquery {
-  background: url("../images/ci2015_blog_assets.svg") -20px -615px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 6em; }
-
-.icon-opensource-rails {
-  background: url("../images/ci2015_blog_assets.svg") -140px -619px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 2em; }
-
-.icon-opensource-ecommerce {
-  background: url("../images/ci2015_blog_assets.svg") -190px -615px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 6em; }
-
-.icon-opensource-spree {
-  background: url("../images/ci2015_blog_assets.svg") -295px -615px no-repeat;
-  display: inline-block;
-  height: 2.5em;
-  width: 6em; }
-
-.icon-organization-magma {
-  background: url("../images/ci2015_blog_assets.svg") -17px -715px no-repeat;
-  display: inline-block;
-  height: 3.5em;
-  width: 5em; }
-
-.icon-organization-codificadas {
-  background: url("../images/ci2015_blog_assets.svg") -130px -715px no-repeat;
-  display: inline-block;
-  height: 3.5em;
-  width: 5em; }
-
-.icon-organization-railsmx {
-  background: url("../images/ci2015_blog_assets.svg") -230px -715px no-repeat;
-  display: inline-block;
-  height: 3.5em;
-  width: 5em; }
-
-.icon-organization-coderetreat {
-  background: url("../images/ci2015_blog_assets.svg") -337px -715px no-repeat;
-  display: inline-block;
-  height: 3.5em;
-  width: 5em; }
-
-.icon-organization-startupweekend {
-  background: url("../images/ci2015_blog_assets.svg") -425px -715px no-repeat;
-  display: inline-block;
-  height: 3.5em;
-  width: 5em; }
+Backtrace:
+assets/stylesheets/modules/icons.scss:1:in `icons'
+assets/stylesheets/modules/icons.scss:1
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:98:in `with_mixin'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `map'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/zalapeach/.rvm/gems/ruby-2.2.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'icons'.\A         on line 1 of assets/stylesheets/modules/icons.scss, in `icons'\A         from line 1 of assets/stylesheets/modules/icons.scss\A \A 1: .icon-search { @include icons(-115px, -110px); }\A 2: .icon-top { @include icons(-13px, -110px); }\A 3: .icon-comments { @include icons(-50px, -110px); }\A 4: .icon-comment { @include icons(-228px, -168px); }\A 5: .icon-archive { @include icons(-160px, -110px); }\A 6: .icon-github { @include icons(-205px, -110px); }"; }
