@@ -5,10 +5,11 @@
 /* Import base styles*/
 @import 'colors';
 @import 'base';
+@import 'mixins';
 
 /* Import fonts */
 @import 'fonts/lato';
-@import 'fonts/titles';
+@import 'fonts/typography';
 //
 ///* Import layout files */
 @import 'layouts/content';
@@ -25,6 +26,8 @@
 @import 'modules/post';
 @import 'modules/top';
 @import 'modules/related-links';
+@import 'modules/icons';
+@import 'modules/social-media';
 
 /* Import state and helper files */
 @import 'helpers';

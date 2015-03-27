@@ -77,16 +77,17 @@ html {
   font-size: 16px;
   font-family: 'Lato'; }
 
-body, p, h1, h2, h3, h4, h5, h6, section, article, div, ul, li {
+body, p, h1, h2, h3, h4, h5, h6, section, article, div, ul, li, blockquote {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 p {
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  margin: 0 auto; }
 
 /* Import fonts */
-h1 {
+h1, p, blockquote {
   font-family: 'Lato';
   font-weight: 100; }
 
@@ -118,6 +119,19 @@ h3, h4 {
   @media (max-width: 320px) {
     h3, h4 {
       font-size: 1.063em; } }
+
+p {
+  color: #333333;
+  font-size: 0.938em;
+  max-width: 804px; }
+  @media (min-width: max-width) and (max-width: 320px) {
+    p {
+      font-size: 1.063em;
+      max-width: 100%; } }
+
+blockquote {
+  color: #999999;
+  font-size: 1.125em; }
 
 #content {
   margin: 0 auto;
@@ -357,10 +371,10 @@ h3, h4 {
   overflow: auto; }
 
 .header-logo-main {
-  background: url("../images/ci2015_blog_assets.svg") -315px 0px no-repeat;
+  background: url("../images/ci2015_blog_assets.svg") -295px 0px no-repeat;
   height: 8em;
   margin: 0 auto;
-  width: 16em; }
+  width: 14em; }
 
 .header-logo-internal-pages {
   background: url("../images/ci2015_blog_assets.svg") no-repeat;
@@ -475,6 +489,198 @@ h3, h4 {
     background-position: -210px -105px; }
   .related-links-icon.magma {
     background-position: -250px -105px; }
+
+.icon-search {
+  background: url("../images/ci2015_blog_assets.svg") -115px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-top {
+  background: url("../images/ci2015_blog_assets.svg") -13px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-comments {
+  background: url("../images/ci2015_blog_assets.svg") -50px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-comment {
+  background: url("../images/ci2015_blog_assets.svg") -228px -168px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-archive {
+  background: url("../images/ci2015_blog_assets.svg") -160px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-github {
+  background: url("../images/ci2015_blog_assets.svg") -205px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-magma {
+  background: url("../images/ci2015_blog_assets.svg") -245px -110px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-left-light-arrow {
+  background: url("../images/ci2015_blog_assets.svg") -10px -168px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-left-dark-arrow {
+  background: url("../images/ci2015_blog_assets.svg") -70px -168px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-right-dark-arrow {
+  background: url("../images/ci2015_blog_assets.svg") -100px -168px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-right-light-arrow {
+  background: url("../images/ci2015_blog_assets.svg") -40px -168px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-horn {
+  background: url("../images/ci2015_blog_assets.svg") -20px -230px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-twitter {
+  background: url("../images/ci2015_blog_assets.svg") -20px -270px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-facebook {
+  background: url("../images/ci2015_blog_assets.svg") -20px -310px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-codeschool {
+  background: url("../images/ci2015_blog_assets.svg") -20px -350px no-repeat;
+  display: inline-block;
+  height: 2em;
+  width: 2em; }
+
+.icon-pending-green {
+  background: url("../images/ci2015_blog_assets.svg") -20px -500px no-repeat;
+  display: inline-block;
+  height: 4em;
+  width: 4em; }
+
+.icon-pending-orange {
+  background: url("../images/ci2015_blog_assets.svg") -120px -500px no-repeat;
+  display: inline-block;
+  height: 4em;
+  width: 4em; }
+
+.icon-pending-blue {
+  background: url("../images/ci2015_blog_assets.svg") -220px -500px no-repeat;
+  display: inline-block;
+  height: 4em;
+  width: 4em; }
+
+.icon-opensource-jquery {
+  background: url("../images/ci2015_blog_assets.svg") -20px -615px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 6em; }
+
+.icon-opensource-rails {
+  background: url("../images/ci2015_blog_assets.svg") -140px -619px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 2em; }
+
+.icon-opensource-ecommerce {
+  background: url("../images/ci2015_blog_assets.svg") -190px -615px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 6em; }
+
+.icon-opensource-spree {
+  background: url("../images/ci2015_blog_assets.svg") -295px -615px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 6em; }
+
+.icon-organization-magma {
+  background: url("../images/ci2015_blog_assets.svg") -17px -715px no-repeat;
+  display: inline-block;
+  height: 3.5em;
+  width: 5em; }
+
+.icon-organization-codificadas {
+  background: url("../images/ci2015_blog_assets.svg") -130px -715px no-repeat;
+  display: inline-block;
+  height: 3.5em;
+  width: 5em; }
+
+.icon-organization-railsmx {
+  background: url("../images/ci2015_blog_assets.svg") -230px -715px no-repeat;
+  display: inline-block;
+  height: 3.5em;
+  width: 5em; }
+
+.icon-organization-coderetreat {
+  background: url("../images/ci2015_blog_assets.svg") -337px -715px no-repeat;
+  display: inline-block;
+  height: 3.5em;
+  width: 5em; }
+
+.icon-organization-startupweekend {
+  background: url("../images/ci2015_blog_assets.svg") -425px -715px no-repeat;
+  display: inline-block;
+  height: 3.5em;
+  width: 5em; }
+
+.social-media-twitter {
+  background: url("../images/ci2015_blog_assets.svg") -20px -420px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 2.5em; }
+
+.social-media-facebook {
+  background: url("../images/ci2015_blog_assets.svg") -90px -420px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 2.5em; }
+
+.social-media-google {
+  background: url("../images/ci2015_blog_assets.svg") -160px -420px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 2.5em; }
+
+.social-media-github {
+  background: url("../images/ci2015_blog_assets.svg") -230px -420px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 2.5em; }
+
+.social-media-linkedin {
+  background: url("../images/ci2015_blog_assets.svg") -300px -420px no-repeat;
+  display: inline-block;
+  height: 2.5em;
+  width: 2.5em; }
 
 /* Import state and helper files */
 .text-center {
