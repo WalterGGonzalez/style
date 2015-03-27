@@ -1,16 +1,19 @@
-/* Import fonts */
-@import 'fonts/lato';
-@import 'fonts/titles';
+/* Dependencies */
+@import 'susy/sass/susy';
+@import 'breakpoint-sass/stylesheets/breakpoint';
 
 /* Import base styles*/
 @import 'colors';
 @import 'base';
 
-/* Import layout files */
+/* Import fonts */
+@import 'fonts/lato';
+@import 'fonts/titles';
+//
+///* Import layout files */
 @import 'layouts/content';
 @import 'layouts/footer';
 @import 'layouts/header';
-@import 'layouts/grid';
 @import 'layouts/grid2';
 
 /* Import module files */
@@ -26,4 +29,5 @@
 /* Import state and helper files */
 @import 'helpers';
 @import 'state';
+
 

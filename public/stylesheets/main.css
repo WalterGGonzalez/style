@@ -1,197 +1,6 @@
-/* Import fonts */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-.f-white {
-  color: #FFFFFF; }
-
-.bg-white {
-  background: #FFFFFF; }
-
-.f-black {
-  color: #000000; }
-
-.bg-black {
-  background: #000000; }
-
-.f-breaker-bay {
-  color: #56A094; }
-
-.bg-breaker-bay {
-  background: #56A094; }
-
-.f-wild-sand {
-  color: #F6F6F6; }
-
-.bg-wild-sand {
-  background: #F6F6F6; }
-
-.f-silver-chalice {
-  color: #AAAAAA; }
-
-.bg-silver-chalice {
-  background: #AAAAAA; }
-
-.f-mine-shaft {
-  color: #333333; }
-
-.bg-mine-shaft {
-  background: #333333; }
-
-.f-punch {
-  color: #D84A28; }
-
-.bg-punch {
-  background: #D84A28; }
-
-.f-tango {
-  color: #EB7C24; }
-
-.bg-tango {
-  background: #EB7C24; }
-
-.f-fun-blue {
-  color: #1B6BB5; }
-
-.bg-fun-blue {
-  background: #1B6BB5; }
-
-.f-oracle {
-  color: #377267; }
-
-.bg-oracle {
-  background: #377267; }
-
-.f-black-haze {
-  color: #EFF0F0; }
-
-.bg-black-haze {
-  background: #EFF0F0; }
-
-.f-dust-gray {
-  color: #999999; }
-
-.bg-dust-gray {
-  background: #999999; }
-
-/* Changing Susy default global settings */
-/* Makes border-box properties */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* Tells Susy there's 8 columns in the content */
-.main {
-  max-width: 1120px;
-  margin-left: auto;
-  margin-right: auto; }
-  .main:after {
-    content: " ";
-    display: block;
-    clear: both; }
-
-.content, .sidebar {
-  height: 200px;
-  padding: 15px;
-  font-weight: bold;
-  font-family: Lato; }
-
-.content {
-  background: red; }
-  @media (min-width: 320px) {
-    .content {
-      background: rgba(0, 0, 255, 0.1); } }
-  @media (min-width: 640px) {
-    .content {
-      width: 66.10169%;
-      float: left;
-      margin-right: 1.69492%;
-      background: rgba(0, 0, 255, 0.3); } }
-  @media (min-width: 800px) {
-    .content {
-      width: 66.10169%;
-      float: left;
-      margin-right: 1.69492%;
-      background: rgba(0, 0, 255, 0.5); } }
-  @media (min-width: 1024px) {
-    .content {
-      width: 66.10169%;
-      float: left;
-      margin-right: 1.69492%;
-      background: blue;
-      color: white; } }
-
-/* Tells Susy there's 4 columns in the sidebar, and its the last item on the row. */
-.sidebar {
-  background: orange; }
-  @media (min-width: 320px) {
-    .sidebar {
-      background: rgba(0, 128, 0, 0.1); } }
-  @media (min-width: 640px) {
-    .sidebar {
-      width: 32.20339%;
-      float: left;
-      margin-right: 1.69492%;
-      float: right;
-      margin-right: 0;
-      background: rgba(0, 128, 0, 0.3); } }
-  @media (min-width: 800px) {
-    .sidebar {
-      width: 32.20339%;
-      float: left;
-      margin-right: 1.69492%;
-      float: right;
-      margin-right: 0;
-      background: rgba(0, 128, 0, 0.5); } }
-  @media (min-width: 1024px) {
-    .sidebar {
-      width: 32.20339%;
-      float: left;
-      margin-right: 1.69492%;
-      float: right;
-      margin-right: 0;
-      background: green;
-      color: white; } }
-
-.hidden-tiny {
-  display: none; }
-  @media (min-width: 320px) {
-    .hidden-tiny {
-      display: block; } }
-
-h1 {
-  font-family: 'Lato';
-  font-weight: 100; }
-
-h2, h4 {
-  font-family: 'Lato';
-  font-weight: 300; }
-
-h3 {
-  font-family: 'Lato';
-  font-weight: 700; }
-
-h1 {
-  color: #CCCCCC;
-  font-size: 2.5em; }
-  @media (max-width: 320px) {
-    h1 {
-      font-size: 1.875em; } }
-
-h2 {
-  color: #CCCCCC;
-  font-size: 1.5em; }
-  @media (max-width: 320px) {
-    h2 {
-      font-size: 1.125em; } }
-
-h3, h4 {
-  color: #333333;
-  font-size: 1.25em; }
-  @media (max-width: 320px) {
-    h3, h4 {
-      font-size: 1.063em; } }
-
+/* Dependencies */
 /* Import base styles*/
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 .f-white {
   color: #FFFFFF; }
 
@@ -276,7 +85,40 @@ body, p, h1, h2, h3, h4, h5, h6, section, article, div, ul, li {
 p {
   line-height: 1.25em; }
 
-/* Import layout files */
+/* Import fonts */
+h1 {
+  font-family: 'Lato';
+  font-weight: 100; }
+
+h2, h4 {
+  font-family: 'Lato';
+  font-weight: 300; }
+
+h3 {
+  font-family: 'Lato';
+  font-weight: 700; }
+
+h1 {
+  color: #CCCCCC;
+  font-size: 2.5em; }
+  @media (max-width: 320px) {
+    h1 {
+      font-size: 1.875em; } }
+
+h2 {
+  color: #CCCCCC;
+  font-size: 1.5em; }
+  @media (max-width: 320px) {
+    h2 {
+      font-size: 1.125em; } }
+
+h3, h4 {
+  color: #333333;
+  font-size: 1.25em; }
+  @media (max-width: 320px) {
+    h3, h4 {
+      font-size: 1.063em; } }
+
 #content {
   margin: 0 auto;
   max-width: 86.875em;
@@ -291,92 +133,6 @@ p {
 
 #header {
   margin-bottom: 2em; }
-
-/* Changing Susy default global settings */
-/* Makes border-box properties */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* Tells Susy there's 8 columns in the content */
-.main {
-  max-width: 1120px;
-  margin-left: auto;
-  margin-right: auto; }
-  .main:after {
-    content: " ";
-    display: block;
-    clear: both; }
-
-.content, .sidebar {
-  height: 200px;
-  padding: 15px;
-  font-weight: bold;
-  font-family: Lato; }
-
-.content {
-  background: red; }
-  @media (min-width: 320px) {
-    .content {
-      background: rgba(0, 0, 255, 0.1); } }
-  @media (min-width: 640px) {
-    .content {
-      width: 66.10169%;
-      float: left;
-      margin-right: 1.69492%;
-      background: rgba(0, 0, 255, 0.3); } }
-  @media (min-width: 800px) {
-    .content {
-      width: 66.10169%;
-      float: left;
-      margin-right: 1.69492%;
-      background: rgba(0, 0, 255, 0.5); } }
-  @media (min-width: 1024px) {
-    .content {
-      width: 66.10169%;
-      float: left;
-      margin-right: 1.69492%;
-      background: blue;
-      color: white; } }
-
-/* Tells Susy there's 4 columns in the sidebar, and its the last item on the row. */
-.sidebar {
-  background: orange; }
-  @media (min-width: 320px) {
-    .sidebar {
-      background: rgba(0, 128, 0, 0.1); } }
-  @media (min-width: 640px) {
-    .sidebar {
-      width: 32.20339%;
-      float: left;
-      margin-right: 1.69492%;
-      float: right;
-      margin-right: 0;
-      background: rgba(0, 128, 0, 0.3); } }
-  @media (min-width: 800px) {
-    .sidebar {
-      width: 32.20339%;
-      float: left;
-      margin-right: 1.69492%;
-      float: right;
-      margin-right: 0;
-      background: rgba(0, 128, 0, 0.5); } }
-  @media (min-width: 1024px) {
-    .sidebar {
-      width: 32.20339%;
-      float: left;
-      margin-right: 1.69492%;
-      float: right;
-      margin-right: 0;
-      background: green;
-      color: white; } }
-
-.hidden-tiny {
-  display: none; }
-  @media (min-width: 320px) {
-    .hidden-tiny {
-      display: block; } }
 
 .main-fixed {
   -moz-box-sizing: border-box;

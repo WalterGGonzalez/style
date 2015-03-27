@@ -12,3 +12,8 @@ body, p, h1, h2, h3, h4, h5, h6, section, article, div, ul, li {
 p {
   line-height: 1.25em;
 }
+
+$bp-tiny:   max-width 320px;
+$bp-small:  max-width 640px;
+$bp-medium: max-width 800px;
+$bp-large:  max-width 1024px;

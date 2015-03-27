@@ -10,10 +10,6 @@ $susy: (
 
 // resolutions
 
-$bp-tiny: max-width 320px;
-$bp-small: max-width 640px;
-$bp-medium: max-width 800px;
-$bp-large: max-width 1024px;
 
 .main-fixed {
   @include container(1390px);
