@@ -1,0 +1,3 @@
+.btn-1 { @include buttons(transparent, 5px solid $alto, $silver, $silver-dark, $white) }
+.btn-2 { @include buttons(transparent, 5px solid $white, $white, $white, $silver-dark) }
+.btn-3 { @include buttons($alto, 5px solid $alto, $white, $silver-dark, $white) }
