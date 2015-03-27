@@ -2,46 +2,11 @@
 .btn-2 { @include buttons(transparent, 5px solid $white, $white, $white, $silver-dark) }
 .btn-3 { @include buttons($alto, 5px solid $alto, $white, $silver-dark, $white) }
 
-%menu {
-  position: relative;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  margin: 25px;
-  border: 1px solid $breaker-bay;
-  background: $breaker-bay;
-  padding: 15px;
-  border-radius: 50%;
-  span {
-    margin: 0 auto;
-    position: relative;
-    top: 12px;
-    &:before, &:after {
-      position: absolute;
-      content: '';
-    }
-    width: 25px;
-    height: 3px;
-    background-color: $white;
-    display: block;
-    &:before, &:after {
-      width: 25px;
-      height: 3px;
-      background-color: white;
-      display: block;
-    }
-    &:before {
-      margin-top: -8px;
-    }
-    &:after {
-      margin-top: 8px;
-    }
-  }
-}
+.menu-mobile { @include menu(30px); }
 
-.menu-mobile {
-  @extend %menu;
-}
+.menu-desktop { @include menu(44px); }
+
+.menu-tiny { @include menu(20px); }
 
 .animate-to-x {
   span {

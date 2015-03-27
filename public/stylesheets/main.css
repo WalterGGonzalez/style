@@ -772,7 +772,7 @@ blockquote {
   .menu-mobile span {
     margin: 0 auto;
     position: relative;
-    top: 12px;
+    top: 12.5px;
     width: 25px;
     height: 3px;
     background-color: #FFFFFF;
@@ -789,6 +789,68 @@ blockquote {
       margin-top: -8px; }
     .menu-mobile span:after {
       margin-top: 8px; }
+
+.menu-desktop {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  margin: 25px;
+  border: 1px solid #56A094;
+  background: #56A094;
+  padding: 22px;
+  border-radius: 50%; }
+  .menu-desktop span {
+    margin: 0 auto;
+    position: relative;
+    top: 18.33333px;
+    width: 36.66667px;
+    height: 3px;
+    background-color: #FFFFFF;
+    display: block; }
+    .menu-desktop span:before, .menu-desktop span:after {
+      position: absolute;
+      content: ''; }
+    .menu-desktop span:before, .menu-desktop span:after {
+      width: 36.66667px;
+      height: 3px;
+      background-color: white;
+      display: block; }
+    .menu-desktop span:before {
+      margin-top: -11.73333px; }
+    .menu-desktop span:after {
+      margin-top: 11.73333px; }
+
+.menu-tiny {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 25px;
+  border: 1px solid #56A094;
+  background: #56A094;
+  padding: 10px;
+  border-radius: 50%; }
+  .menu-tiny span {
+    margin: 0 auto;
+    position: relative;
+    top: 8.33333px;
+    width: 16.66667px;
+    height: 3px;
+    background-color: #FFFFFF;
+    display: block; }
+    .menu-tiny span:before, .menu-tiny span:after {
+      position: absolute;
+      content: ''; }
+    .menu-tiny span:before, .menu-tiny span:after {
+      width: 16.66667px;
+      height: 3px;
+      background-color: white;
+      display: block; }
+    .menu-tiny span:before {
+      margin-top: -5.33333px; }
+    .menu-tiny span:after {
+      margin-top: 5.33333px; }
 
 .animate-to-x span {
   -webkit-transition-duration: 0s;

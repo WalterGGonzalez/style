@@ -26,3 +26,40 @@
     padding: 21px 0;
   }
 }
+
+@mixin menu($width) {
+  position: relative;
+  display: inline-block;
+  width: $width;
+  height: $width;
+  margin: 25px;
+  border: 1px solid $breaker-bay;
+  background: $breaker-bay;
+  padding: $width / 2;
+  border-radius: 50%;
+  span {
+    margin: 0 auto;
+    position: relative;
+    top: $width / 2.4;
+    &:before, &:after {
+      position: absolute;
+      content: '';
+    }
+    width: $width / 1.2;
+    height: 3px;
+    background-color: $white;
+    display: block;
+    &:before, &:after {
+      width: $width / 1.2; 
+      height: 3px;
+      background-color: white;
+      display: block;
+    }
+    &:before {
+      margin-top: -1 * ($width / 3.75);
+    }
+    &:after {
+      margin-top: $width / 3.75;
+    }
+  }
+}
