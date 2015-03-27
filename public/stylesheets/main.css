@@ -641,6 +641,14 @@ p {
   width: 4em;
   margin: 1.875em; }
 
+.header-options-mobile {
+  background-color: #56A094;
+  border-radius: 2em;
+  float: left;
+  height: 2.5em;
+  width: 2.5em;
+  margin: 1.875em; }
+
 .header-options-line {
   background-color: #FFFFFF;
   display: block;
@@ -649,6 +657,15 @@ p {
   width: 1.563em; }
   .header-options-line:first-child {
     margin: 1.375em auto 0.313em; }
+
+.header-options-line-mobile {
+  background-color: #FFFFFF;
+  display: block;
+  height: 0.125em;
+  margin: 0 auto 0.313em;
+  width: 1em; }
+  .header-options-line-mobile:first-child {
+    margin: 0.75em auto 0.313em; }
 
 .highlighted {
   background-color: #F6F6F6;
@@ -925,6 +942,66 @@ p {
   display: inline-block;
   height: 2.5em;
   width: 2.5em; }
+
+.btn-1 {
+  background-color: transparent;
+  border: 5px solid #DDDDDD;
+  color: #CCCCCC;
+  cursor: pointer;
+  display: inline-block;
+  font: normal 100 0.938em 'Lato', sans-serif;
+  height: 60px;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 240px; }
+  .btn-1:hover {
+    background-color: #BBBBBB;
+    border: none;
+    color: #FFFFFF;
+    padding: 21px 0; }
+
+.btn-2 {
+  background-color: transparent;
+  border: 5px solid #FFFFFF;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font: normal 100 0.938em 'Lato', sans-serif;
+  height: 60px;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 240px; }
+  .btn-2:hover {
+    background-color: #FFFFFF;
+    border: none;
+    color: #BBBBBB;
+    padding: 21px 0; }
+
+.btn-3 {
+  background-color: #DDDDDD;
+  border: 5px solid #DDDDDD;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font: normal 100 0.938em 'Lato', sans-serif;
+  height: 60px;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 240px; }
+  .btn-3:hover {
+    background-color: #BBBBBB;
+    border: none;
+    color: #FFFFFF;
+    padding: 21px 0; }
 
 /* Import state and helper files */
 .text-center {
