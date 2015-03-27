@@ -1,81 +1,97 @@
 @import '../../../bower_components/susy/sass/_susy';
 @import '../../../bower_components/breakpoint-sass/stylesheets/_breakpoint';
 
-/* Changing Susy default global settings */
 $susy: (
-  /* Tells Susy to use 12 columns */
   columns: 12,
-  /* Tells Susy that the container has a max-width of 1120px */
-  container: 1120px,
-  /* Tells Susy to use border-box */
-  global-box-sizing: border-box
+  global-box-sizing: border-box,
+  box-sizing: border-box,
+  gutters: 0
 );
 
-$bp-tiny: 320px;
-$bp-small: 640px;
-$bp-medium: 800px;
-$bp-large: 1024px;
+// resolutions
 
-/* Makes border-box properties */
-@include border-box-sizing;/* Tells Susy there's 8 columns in the content */
 
-.main {
-  @include container;
+.main-fixed {
+  @include container(1390px);
 }
 
-.content, .sidebar {
-  height: 200px;
-  padding: 15px;
-  font-weight: bold;
-  font-family: Lato;
+.main-fluid {
+  @include container(100%);
 }
 
-.content {
-  background: red;
-  @include breakpoint($bp-tiny){
-    background: rgba(blue, .1);
-  }
-  @include breakpoint($bp-small){
-    @include span(8);
-    background: rgba(blue, .3);
-  }
-  @include breakpoint($bp-medium){
-    @include span(8);
-    background: rgba(blue, .5);
-  }
+.l-one-column {
+  @include span(1);
   @include breakpoint($bp-large){
-    @include span(8);
-    background: rgba(blue, 1);
-    color: white;
+    @include span(12);
   }
 }
 
-/* Tells Susy there's 4 columns in the sidebar, and its the last item on the row. */
-.sidebar {
-  background: orange;
-  @include breakpoint($bp-tiny){
-    background: rgba(green, .1);
-  }
-  @include breakpoint($bp-small){
-    @include span(4);
-    @include last;
-    background: rgba(green, .3);
-  }
-  @include breakpoint($bp-medium){
-    @include span(4);
-    @include last;
-    background: rgba(green, .5);
-  }
+.l-two-column {
+  @include span(2);
   @include breakpoint($bp-large){
-    @include span(4);
-    @include last;
-    background: rgba(green, 1);
-    color: white;
+    @include span(12);
   }
 }
-.hidden-tiny{
-  display: none;
-  @include breakpoint($bp-tiny){
-    display: block;
+
+.l-three-column {
+  @include span(3);
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-four-column {
+  @include span(4);
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-five-column {
+  @include span(5);
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-six-column {
+  @include span(6);
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-seven-column {
+  @include span(7);
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-eight-column {
+  @include span(8);
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-nine-column {
+  @include span(9);
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-ten-column {
+  @include span(10);
+  @include breakpoint($bp-large){
+    @include span(12);
+  }
+}
+
+.l-eleven-column {
+  @include span(11);
+  @include breakpoint($bp-large){
+    @include span(12);
   }
 }
