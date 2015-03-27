@@ -28,38 +28,34 @@
 }
 
 @mixin menu($width) {
-  position: relative;
+  background: $breaker-bay;
+  border-radius: 50%;
+  border: 1px solid $breaker-bay;
   display: inline-block;
-  width: $width;
   height: $width;
   margin: 25px;
-  border: 1px solid $breaker-bay;
-  background: $breaker-bay;
   padding: $width / 2;
-  border-radius: 50%;
+  position: relative;
+  width: $width;
   span {
     margin: 0 auto;
     position: relative;
     top: $width / 2.4;
     &:before, &:after {
-      position: absolute;
       content: '';
+      position: absolute;
     }
-    width: $width / 1.2;
-    height: 3px;
     background-color: $white;
     display: block;
+    height: 3px;
+    width: $width / 1.2;
     &:before, &:after {
-      width: $width / 1.2; 
-      height: 3px;
       background-color: white;
       display: block;
+      height: 3px;
+      width: $width / 1.2;
     }
-    &:before {
-      margin-top: -1 * ($width / 3.75);
-    }
-    &:after {
-      margin-top: $width / 3.75;
-    }
+    &:before { margin-top: -1 * ($width / 3.75); }
+    &:after { margin-top: $width / 3.75; }
   }
 }
