@@ -10,31 +10,31 @@
 
 .animate-to-x {
   span {
-    -webkit-transition-duration: 0s;
-    -webkit-transition-delay: .2s;
+    @include transition-duration(0s);
+    @include transition-delay(.2s);
   }
   &:hover span {
     background-color: rgba(0, 0, 0, 0);
-    -webkit-transition-delay: .2s;
+    @include transition-delay(.2s);
   }
   span:before {
-    -webkit-transition-property: margin, -webkit-transform;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-delay: .2s, 0;
+    @include transition-property(margin, -webkit-transform);
+    @include transition-duration(.2s);
+    @include transition-delay(.2s, 0);
   }
   &:hover span:before {
     margin-top: 0;
-    -webkit-transform: rotate(45deg);
-    -webkit-transition-delay: 0, .2s;
+    @include transform(rotate(45deg));
+    @include transition-delay(0, .2s);
   }
   span:after {
-    -webkit-transition-property: margin, -webkit-transform;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-delay: .2s, 0;
+    @include transition-property(margin, -webkit-transform);
+    @include transition-duration(.2s);
+    @include transition-delay(.2s, 0);
   }
   &:hover span:after {
     margin-top: 0;
-    -webkit-transform: rotate(-45deg);
-    -webkit-transition-delay: 0, .2s;
+    @include transform(rotate(-45deg));
+    @include transition-delay(0, .2s);
   }
 }
