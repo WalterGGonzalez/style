@@ -14,6 +14,7 @@
     @include transition-delay(.2s);
   }
   &:hover span {
+    -webkit-transition-delay: .2s;
     background-color: rgba(0, 0, 0, 0);
     @include transition-delay(.2s);
   }
