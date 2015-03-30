@@ -1,0 +1,41 @@
+.btn-1 { @include buttons(transparent, 5px solid $alto, $silver, $silver-dark, $white) }
+.btn-2 { @include buttons(transparent, 5px solid $white, $white, $white, $silver-dark) }
+.btn-3 { @include buttons($alto, 5px solid $alto, $white, $silver-dark, $white) }
+
+.menu-mobile { @include menu(30px); }
+
+.menu-desktop { @include menu(44px); }
+
+.menu-tiny { @include menu(20px); }
+
+.animate-to-x {
+  span {
+    @include transition-duration(0s);
+    @include transition-delay(.2s);
+  }
+  &:hover span {
+    -webkit-transition-delay: .2s;
+    background-color: rgba(0, 0, 0, 0);
+    @include transition-delay(.2s);
+  }
+  span:before {
+    @include transition-property(margin, -webkit-transform);
+    @include transition-duration(.2s);
+    @include transition-delay(.2s, 0);
+  }
+  &:hover span:before {
+    margin-top: 0;
+    @include transform(rotate(45deg));
+    @include transition-delay(0, .2s);
+  }
+  span:after {
+    @include transition-property(margin, -webkit-transform);
+    @include transition-duration(.2s);
+    @include transition-delay(.2s, 0);
+  }
+  &:hover span:after {
+    margin-top: 0;
+    @include transform(rotate(-45deg));
+    @include transition-delay(0, .2s);
+  }
+}

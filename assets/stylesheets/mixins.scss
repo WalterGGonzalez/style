@@ -5,3 +5,57 @@
   width: $width;
 }
 
+@mixin buttons($bg-color, $border, $color, $hover-bg-color, $hover-color) {
+  background-color: $bg-color;
+  border: $border;
+  color: $color;
+  cursor: pointer;
+  display: inline-block;
+  font: normal 100 0.938em 'Lato', sans-serif;
+  height: 60px;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 240px;
+  &:hover {
+    background-color: $hover-bg-color;
+    border: none;
+    color: $hover-color;
+    padding: 21px 0;
+  }
+}
+
+@mixin menu($width) {
+  background: $breaker-bay;
+  border-radius: 50%;
+  border: 1px solid $breaker-bay;
+  display: inline-block;
+  height: $width;
+  margin: 25px;
+  padding: $width / 2;
+  position: relative;
+  width: $width;
+  span {
+    margin: 0 auto;
+    position: relative;
+    top: $width / 2.4;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+    }
+    background-color: $white;
+    display: block;
+    height: 3px;
+    width: $width / 1.2;
+    &:before, &:after {
+      background-color: white;
+      display: block;
+      height: 3px;
+      width: $width / 1.2;
+    }
+    &:before { margin-top: -1 * ($width / 3.75); }
+    &:after { margin-top: $width / 3.75; }
+  }
+}

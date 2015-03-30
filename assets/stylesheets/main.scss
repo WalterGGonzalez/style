@@ -1,6 +1,7 @@
 /* Dependencies */
 @import 'susy/sass/susy';
 @import 'breakpoint-sass/stylesheets/breakpoint';
+@import 'bourbon/app/assets/stylesheets/_bourbon.scss';
 
 /* Import base styles*/
 @import 'colors';
@@ -28,6 +29,7 @@
 @import 'modules/related-links';
 @import 'modules/icons';
 @import 'modules/social-media';
+@import 'modules/button';
 
 /* Import state and helper files */
 @import 'helpers';
