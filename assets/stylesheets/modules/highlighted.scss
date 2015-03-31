@@ -11,7 +11,7 @@
 
 .highlighted-icon {
   display: inline-block;
-  background: url('../images/ci2015_blog_assets.svg') -10px -105px no-repeat;
+  background: url($blog-sprite-url) -10px -105px no-repeat;
   width: 40px;
   height: 40px;
   vertical-align: -0.625em;

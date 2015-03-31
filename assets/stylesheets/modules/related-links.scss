@@ -4,7 +4,7 @@
 }
 
 .related-links-icon {
-  background: url('../images/ci2015_blog_assets.svg') -165px -105px no-repeat;
+  background: url($blog-sprite-url) -165px -105px no-repeat;
   width: 40px;
   height: 20px;
   display: inline-block;
