@@ -1,4 +1,4 @@
-@mixin icons($x, $y, $height: 2em, $width: 2em) {
+@mixin icons($x, $y, $height: 32px, $width: 32px) {
   background: url($blog-sprite-url) $x $y no-repeat;
   display: inline-block;
   height: $height;

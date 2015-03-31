@@ -371,16 +371,16 @@ blockquote {
   overflow: auto; }
 
 .header-logo-main {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -295px 0px no-repeat;
-  height: 8em;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -298px 0px no-repeat;
+  height: 128px;
   margin: 0 auto;
-  width: 14em; }
+  width: 245px; }
 
 .header-logo-internal-pages {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") no-repeat;
-  height: 5em;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -19px no-repeat;
+  height: 62px;
   margin: 0 auto;
-  width: 11em; }
+  width: 144px; }
 
 .header-search {
   background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -115px -110px no-repeat;
@@ -508,196 +508,196 @@ blockquote {
     background-position: -250px -105px; }
 
 .icon-search {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -115px -110px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -118px -109px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-top {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -13px -110px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -12px -109px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-comments {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -50px -110px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -50px -109px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-comment {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -228px -168px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -228px -169px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-archive {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -160px -110px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -163px -109px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-github {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -205px -110px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -205px -109px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-magma {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -245px -110px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -244px -109px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-left-light-arrow {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -10px -168px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -10px -167px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-left-dark-arrow {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -70px -168px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -70px -167px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-right-dark-arrow {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -100px -168px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -100px -167px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-right-light-arrow {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -40px -168px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -40px -167px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-horn {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -230px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -229px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-twitter {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -270px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -269px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-facebook {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -310px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -309px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-codeschool {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -350px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -349px no-repeat;
   display: inline-block;
-  height: 2em;
-  width: 2em; }
+  height: 32px;
+  width: 32px; }
 
 .icon-pending-green {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -500px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -499px no-repeat;
   display: inline-block;
-  height: 4em;
-  width: 4em; }
+  height: 65px;
+  width: 64px; }
 
 .icon-pending-orange {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -120px -500px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -120px -499px no-repeat;
   display: inline-block;
-  height: 4em;
-  width: 4em; }
+  height: 65px;
+  width: 64px; }
 
 .icon-pending-blue {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -220px -500px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -220px -499px no-repeat;
   display: inline-block;
-  height: 4em;
-  width: 4em; }
+  height: 65px;
+  width: 64px; }
 
 .icon-opensource-jquery {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -615px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -608px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 6em; }
+  height: 40px;
+  width: 90px; }
 
 .icon-opensource-rails {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -140px -619px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -139px -619px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 2em; }
+  height: 40px;
+  width: 32px; }
 
 .icon-opensource-ecommerce {
   background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -190px -615px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 6em; }
+  height: 40px;
+  width: 90px; }
 
 .icon-opensource-spree {
   background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -295px -615px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 6em; }
+  height: 40px;
+  width: 90px; }
 
 .icon-organization-magma {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -17px -715px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -17px -707px no-repeat;
   display: inline-block;
-  height: 3.5em;
-  width: 5em; }
+  height: 47px;
+  width: 80px; }
 
 .icon-organization-codificadas {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -130px -715px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -130px -717px no-repeat;
   display: inline-block;
-  height: 3.5em;
-  width: 5em; }
+  height: 47px;
+  width: 80px; }
 
 .icon-organization-railsmx {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -230px -715px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -230px -710px no-repeat;
   display: inline-block;
-  height: 3.5em;
-  width: 5em; }
+  height: 47px;
+  width: 80px; }
 
 .icon-organization-coderetreat {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -337px -715px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -337px -702px no-repeat;
   display: inline-block;
-  height: 3.5em;
-  width: 5em; }
+  height: 47px;
+  width: 80px; }
 
 .icon-organization-startupweekend {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -425px -715px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -425px -719px no-repeat;
   display: inline-block;
-  height: 3.5em;
-  width: 5em; }
+  height: 47px;
+  width: 80px; }
 
 .social-media-twitter {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -420px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -419px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 2.5em; }
+  height: 41px;
+  width: 41px; }
 
 .social-media-facebook {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -90px -420px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -90px -419px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 2.5em; }
+  height: 41px;
+  width: 41px; }
 
 .social-media-google {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -160px -420px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -160px -419px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 2.5em; }
+  height: 41px;
+  width: 41px; }
 
 .social-media-github {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -230px -420px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -230px -419px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 2.5em; }
+  height: 41px;
+  width: 41px; }
 
 .social-media-linkedin {
-  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -300px -420px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -300px -419px no-repeat;
   display: inline-block;
-  height: 2.5em;
-  width: 2.5em; }
+  height: 41px;
+  width: 41px; }
 
 .btn-1 {
   background-color: transparent;
