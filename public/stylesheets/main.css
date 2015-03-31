@@ -149,8 +149,8 @@ blockquote {
   margin-bottom: 2em; }
 
 .main-fixed {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 1390px;
   margin-left: auto;
@@ -161,8 +161,8 @@ blockquote {
     clear: both; }
 
 .main-fluid {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 100%;
   margin-left: auto;
@@ -173,15 +173,15 @@ blockquote {
     clear: both; }
 
 .l-one-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 8.33333%;
   float: left; }
   @media (max-width: 1024px) {
     .l-one-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -189,15 +189,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-two-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 16.66667%;
   float: left; }
   @media (max-width: 1024px) {
     .l-two-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -205,15 +205,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-three-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 25%;
   float: left; }
   @media (max-width: 1024px) {
     .l-three-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -221,15 +221,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-four-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 33.33333%;
   float: left; }
   @media (max-width: 1024px) {
     .l-four-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -237,15 +237,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-five-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 41.66667%;
   float: left; }
   @media (max-width: 1024px) {
     .l-five-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -253,15 +253,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-six-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 50%;
   float: left; }
   @media (max-width: 1024px) {
     .l-six-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -269,15 +269,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-seven-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 58.33333%;
   float: left; }
   @media (max-width: 1024px) {
     .l-seven-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -285,15 +285,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-eight-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 66.66667%;
   float: left; }
   @media (max-width: 1024px) {
     .l-eight-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -301,15 +301,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-nine-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 75%;
   float: left; }
   @media (max-width: 1024px) {
     .l-nine-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -317,15 +317,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-ten-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 83.33333%;
   float: left; }
   @media (max-width: 1024px) {
     .l-ten-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -333,15 +333,15 @@ blockquote {
       margin-right: 0; } }
 
 .l-eleven-column {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 91.66667%;
   float: left; }
   @media (max-width: 1024px) {
     .l-eleven-column {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       width: 100%;
       float: left;
@@ -371,19 +371,19 @@ blockquote {
   overflow: auto; }
 
 .header-logo-main {
-  background: url("../images/ci2015_blog_assets.svg") -298px 0px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -298px 0px no-repeat;
   height: 128px;
   margin: 0 auto;
   width: 245px; }
 
 .header-logo-internal-pages {
-  background: url("../images/ci2015_blog_assets.svg") -19px -19px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -19px no-repeat;
   height: 62px;
   margin: 0 auto;
   width: 144px; }
 
 .header-search {
-  background: url("../images/ci2015_blog_assets.svg") -115px -110px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -115px -110px no-repeat;
   float: right;
   height: 2em;
   margin: 1.875em;
@@ -435,7 +435,7 @@ blockquote {
 
 .highlighted-icon {
   display: inline-block;
-  background: url("../images/ci2015_blog_assets.svg") -10px -105px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -10px -105px no-repeat;
   width: 40px;
   height: 40px;
   vertical-align: -0.625em; }
@@ -495,7 +495,7 @@ blockquote {
   color: #AAAAAA; }
 
 .related-links-icon {
-  background: url("../images/ci2015_blog_assets.svg") -165px -105px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -165px -105px no-repeat;
   width: 40px;
   height: 20px;
   display: inline-block;
@@ -508,193 +508,193 @@ blockquote {
     background-position: -250px -105px; }
 
 .icon-search {
-  background: url("../images/ci2015_blog_assets.svg") -118px -109px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -118px -109px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-top {
-  background: url("../images/ci2015_blog_assets.svg") -12px -109px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -12px -109px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-comments {
-  background: url("../images/ci2015_blog_assets.svg") -50px -109px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -50px -109px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-comment {
-  background: url("../images/ci2015_blog_assets.svg") -228px -169px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -228px -169px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-archive {
-  background: url("../images/ci2015_blog_assets.svg") -163px -109px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -163px -109px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-github {
-  background: url("../images/ci2015_blog_assets.svg") -205px -109px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -205px -109px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-magma {
-  background: url("../images/ci2015_blog_assets.svg") -244px -109px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -244px -109px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-left-light-arrow {
-  background: url("../images/ci2015_blog_assets.svg") -10px -167px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -10px -167px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-left-dark-arrow {
-  background: url("../images/ci2015_blog_assets.svg") -70px -167px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -70px -167px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-right-dark-arrow {
-  background: url("../images/ci2015_blog_assets.svg") -100px -167px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -100px -167px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-right-light-arrow {
-  background: url("../images/ci2015_blog_assets.svg") -40px -167px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -40px -167px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-horn {
-  background: url("../images/ci2015_blog_assets.svg") -19px -229px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -229px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-twitter {
-  background: url("../images/ci2015_blog_assets.svg") -19px -269px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -269px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-facebook {
-  background: url("../images/ci2015_blog_assets.svg") -19px -309px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -309px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-codeschool {
-  background: url("../images/ci2015_blog_assets.svg") -19px -349px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -19px -349px no-repeat;
   display: inline-block;
   height: 32px;
   width: 32px; }
 
 .icon-pending-green {
-  background: url("../images/ci2015_blog_assets.svg") -20px -499px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -499px no-repeat;
   display: inline-block;
   height: 65px;
   width: 64px; }
 
 .icon-pending-orange {
-  background: url("../images/ci2015_blog_assets.svg") -120px -499px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -120px -499px no-repeat;
   display: inline-block;
   height: 65px;
   width: 64px; }
 
 .icon-pending-blue {
-  background: url("../images/ci2015_blog_assets.svg") -220px -499px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -220px -499px no-repeat;
   display: inline-block;
   height: 65px;
   width: 64px; }
 
 .icon-opensource-jquery {
-  background: url("../images/ci2015_blog_assets.svg") -20px -608px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -608px no-repeat;
   display: inline-block;
   height: 40px;
   width: 90px; }
 
 .icon-opensource-rails {
-  background: url("../images/ci2015_blog_assets.svg") -139px -619px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -139px -619px no-repeat;
   display: inline-block;
   height: 40px;
   width: 32px; }
 
 .icon-opensource-ecommerce {
-  background: url("../images/ci2015_blog_assets.svg") -190px -615px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -190px -615px no-repeat;
   display: inline-block;
   height: 40px;
   width: 90px; }
 
 .icon-opensource-spree {
-  background: url("../images/ci2015_blog_assets.svg") -295px -615px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -295px -615px no-repeat;
   display: inline-block;
   height: 40px;
   width: 90px; }
 
 .icon-organization-magma {
-  background: url("../images/ci2015_blog_assets.svg") -17px -707px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -17px -707px no-repeat;
   display: inline-block;
   height: 47px;
   width: 80px; }
 
 .icon-organization-codificadas {
-  background: url("../images/ci2015_blog_assets.svg") -130px -717px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -130px -717px no-repeat;
   display: inline-block;
   height: 47px;
   width: 80px; }
 
 .icon-organization-railsmx {
-  background: url("../images/ci2015_blog_assets.svg") -230px -710px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -230px -710px no-repeat;
   display: inline-block;
   height: 47px;
   width: 80px; }
 
 .icon-organization-coderetreat {
-  background: url("../images/ci2015_blog_assets.svg") -337px -702px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -337px -702px no-repeat;
   display: inline-block;
   height: 47px;
   width: 80px; }
 
 .icon-organization-startupweekend {
-  background: url("../images/ci2015_blog_assets.svg") -425px -719px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -425px -719px no-repeat;
   display: inline-block;
   height: 47px;
   width: 80px; }
 
 .social-media-twitter {
-  background: url("../images/ci2015_blog_assets.svg") -20px -419px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -20px -419px no-repeat;
   display: inline-block;
   height: 41px;
   width: 41px; }
 
 .social-media-facebook {
-  background: url("../images/ci2015_blog_assets.svg") -90px -419px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -90px -419px no-repeat;
   display: inline-block;
   height: 41px;
   width: 41px; }
 
 .social-media-google {
-  background: url("../images/ci2015_blog_assets.svg") -160px -419px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -160px -419px no-repeat;
   display: inline-block;
   height: 41px;
   width: 41px; }
 
 .social-media-github {
-  background: url("../images/ci2015_blog_assets.svg") -230px -419px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -230px -419px no-repeat;
   display: inline-block;
   height: 41px;
   width: 41px; }
 
 .social-media-linkedin {
-  background: url("../images/ci2015_blog_assets.svg") -300px -419px no-repeat;
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -300px -419px no-repeat;
   display: inline-block;
   height: 41px;
   width: 41px; }

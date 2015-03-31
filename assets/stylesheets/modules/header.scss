@@ -4,21 +4,21 @@
 }
 
 .header-logo-main {
-  background: url('../images/ci2015_blog_assets.svg') -298px 0px no-repeat;
+  background: url($blog-sprite-url) -298px 0px no-repeat;
   height: 128px;
   margin: 0 auto;
   width: 245px;
 }
 
 .header-logo-internal-pages {
-  background: url('../images/ci2015_blog_assets.svg') -19px -19px no-repeat;
+  background: url($blog-sprite-url) -19px -19px no-repeat;
   height: 62px;
   margin: 0 auto;
   width: 144px;
 }
 
 .header-search {
-  background: url('../images/ci2015_blog_assets.svg') -115px -110px no-repeat;
+  background: url($blog-sprite-url) -115px -110px no-repeat;
   float: right;
   height: 2em;
   margin: 1.875em;
