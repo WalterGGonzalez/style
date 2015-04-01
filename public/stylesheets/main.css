@@ -910,7 +910,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   background: #EEEEEE;
   border: 2px solid #EEEEEE;
   color: #333333;
-  font-size: 1rem;
+  font-size: 1em;
   max-height: 50px;
   min-width: 18.75em;
   padding: 1em; }
