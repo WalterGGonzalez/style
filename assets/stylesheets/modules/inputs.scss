@@ -1,0 +1,19 @@
+#{$all-text-inputs} {
+  @extend %lato-light;
+  background: $gallery;
+  border: 2px solid $gallery;
+  color: $mine-shaft;
+  font-size: 1rem;
+  max-height: 50px;
+  min-width: em(300);
+  padding: 1em;
+  &.has-info {
+    border: 2px solid $silver-chalice !important;
+  }
+}
+
+#{$all-text-inputs-focus},
+#{$all-text-inputs-hover} {
+  border: 2px solid $silver-chalice;
+}
+
