@@ -1,4 +1,5 @@
 /* Dependencies */
+/* Thanks to this 3rd party functions */
 /* Import base styles*/
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 .f-white {
@@ -866,9 +867,9 @@ blockquote {
   -moz-transition-delay: 0.2s;
   transition-delay: 0.2s; }
 .animate-to-x span:before {
-  -webkit-transition-property: margin, -webkit-transform;
-  -moz-transition-property: margin, -webkit-transform;
-  transition-property: margin, -webkit-transform;
+  -webkit-transition-property: transition-property-names(margin, -webkit-transform, "webkit");
+  -moz-transition-property: transition-property-names(margin, -webkit-transform, "moz");
+  transition-property: transition-property-names(margin, -webkit-transform, false);
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
@@ -886,9 +887,9 @@ blockquote {
   -moz-transition-delay: 0, 0.2s;
   transition-delay: 0, 0.2s; }
 .animate-to-x span:after {
-  -webkit-transition-property: margin, -webkit-transform;
-  -moz-transition-property: margin, -webkit-transform;
-  transition-property: margin, -webkit-transform;
+  -webkit-transition-property: transition-property-names(margin, -webkit-transform, "webkit");
+  -moz-transition-property: transition-property-names(margin, -webkit-transform, "moz");
+  transition-property: transition-property-names(margin, -webkit-transform, false);
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
@@ -912,7 +913,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   color: #333333;
   font-size: 1em;
   max-height: 50px;
-  min-width: 18.75em;
+  min-width: em(300);
   padding: 1em; }
   input[type="color"].has-info, input[type="date"].has-info, input[type="datetime"].has-info, input[type="datetime-local"].has-info, input[type="email"].has-info, input[type="month"].has-info, input[type="number"].has-info, input[type="password"].has-info, input[type="search"].has-info, input[type="tel"].has-info, input[type="text"].has-info, input[type="time"].has-info, input[type="url"].has-info, input[type="week"].has-info, textarea.has-info {
     border: 2px solid #AAAAAA !important; }

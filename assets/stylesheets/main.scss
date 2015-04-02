@@ -1,7 +1,9 @@
 /* Dependencies */
 @import 'susy/sass/susy';
 @import 'breakpoint-sass/stylesheets/breakpoint';
-@import 'bourbon/app/assets/stylesheets/_bourbon.scss';
+
+/* Thanks to this 3rd party functions */
+@import 'bourbon/bourbon';
 
 /* Import base styles*/
 @import 'colors';

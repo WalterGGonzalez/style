@@ -18,8 +18,7 @@
   ],
   "dependencies": {
     "susy": "~2.2.2",
-    "breakpoint-sass": "~2.5.0",
-    "bourbon": "~4.2.1"
+    "breakpoint-sass": "~2.5.0"
   },
   "devDependencies": {
     "jquery": "~2.1.3"
