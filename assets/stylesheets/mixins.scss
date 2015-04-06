@@ -59,3 +59,9 @@
     &:after { margin-top: $width / 3.75; }
   }
 }
+
+
+@mixin font-size($size-px) {
+  font-size: $size-px;
+  font-size: rem($size-px);
+}

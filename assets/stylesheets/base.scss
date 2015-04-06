@@ -14,6 +14,10 @@ p {
   margin: 0 auto;
 }
 
+#{$all-text-inputs} {
+  outline: none;
+}
+
 $bp-tiny:   max-width 320px;
 $bp-small:  max-width 640px;
 $bp-medium: max-width 800px;
