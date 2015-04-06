@@ -1,3 +1,6 @@
+$btn-border: 4px;
+$disabled-lighten: 8%;
+
 @mixin icons($x, $y, $height: 32px, $width: 32px) {
   background: url($blog-sprite-url) $x $y no-repeat;
   display: inline-block;
@@ -5,13 +8,15 @@
   width: $width;
 }
 
-@mixin buttons($bg-color, $border, $color, $hover-bg-color, $hover-color) {
+@mixin buttons($bg-color, $border-color, $color, $hover-bg-color, $hover-color, $active-bg-color) {
   background-color: $bg-color;
-  border: $border;
+  border-color: $border-color;
+  border-style: solid;
+  border-width: $btn-border;
   color: $color;
   cursor: pointer;
   display: inline-block;
-  font: normal 100 0.938em 'Lato', sans-serif;
+  font: 100 18px Lato;
   height: 60px;
   padding: 16px 0;
   text-align: center;
@@ -21,9 +26,17 @@
   width: 240px;
   &:hover {
     background-color: $hover-bg-color;
-    border: none;
+    border-color: $hover-bg-color;
     color: $hover-color;
-    padding: 21px 0;
+  }
+  &:active {
+    background: $active-bg-color;
+    border-color: $active-bg-color;
+  }
+  &:disabled {
+    background: transparent;
+    border-color: lighten($border-color, $disabled-lighten);
+    color: lighten($color, $disabled-lighten);
   }
 }
 

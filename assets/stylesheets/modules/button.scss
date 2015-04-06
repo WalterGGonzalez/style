@@ -1,6 +1,23 @@
-.btn-1 { @include buttons(transparent, 5px solid $alto, $silver, $silver-dark, $white) }
-.btn-2 { @include buttons(transparent, 5px solid $white, $white, $white, $silver-dark) }
-.btn-3 { @include buttons($alto, 5px solid $alto, $white, $silver-dark, $white) }
+.btn-1 { @include buttons(transparent,
+                          $alto,
+                          $silver,
+                          $silver-dark,
+                          $white,
+                          $dust-gray) }
+
+.btn-2 { @include buttons(transparent,
+                          $white,
+                          $white,
+                          $white,
+                          $silver-dark,
+                          $dust-gray) }
+
+.btn-3 { @include buttons($alto,
+                          $alto,
+                          $white,
+                          $silver-dark,
+                          $white,
+                          $dust-gray) }
 
 .menu-mobile { @include menu(30px); }
 
