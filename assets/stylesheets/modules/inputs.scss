@@ -1,9 +1,9 @@
 #{$all-text-inputs} {
   @extend %lato-light;
+  @include font-size(18px);
   background: $gallery;
   border: 2px solid $gallery;
   color: $mine-shaft;
-  font-size: 1em;
   max-height: em(50);
   min-width: em(300);
   padding: 1em;
