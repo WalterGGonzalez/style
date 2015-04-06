@@ -1,20 +1,26 @@
 #{$all-text-inputs} {
   @extend %lato-light;
+  @include font-size(18px);
   background: $gallery;
   border: 2px solid $gallery;
   color: $mine-shaft;
-  font-size: 1em;
-  max-height: 50px;
+  max-height: em(50);
   min-width: em(300);
   padding: 1em;
-
   &.has-info {
-    border: 2px solid $silver-chalice !important;
+    border: 2px solid $alto;
   }
-}
-
-#{$all-text-inputs-focus},
-#{$all-text-inputs-hover} {
-  border: 2px solid $silver-chalice;
+  &.error {
+    border-color: red;
+    background: $wild-sand;
+  }
+  &:disabled {
+    background: $alto;
+    border-color: $alto;
+    color: $silver-chalice;
+  }
+  &:focus {
+    border-color: $silver-chalice;
+  }
 }
 

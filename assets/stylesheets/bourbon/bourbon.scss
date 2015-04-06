@@ -1,6 +1,10 @@
 @import "settings/prefixer";
+@import "settings/px-to-em";
 
 @import "functions/assign-inputs";
+@import "functions/px-to-em";
+@import "functions/px-to-rem";
+@import "functions/strip-units";
 
 @import "css3/transition";
 @import "css3/transform";
