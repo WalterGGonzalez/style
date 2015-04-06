@@ -8,10 +8,7 @@
   min-width: em(300);
   padding: 1em;
   &.has-info {
-    border: 2px solid $alto !important;
-  }
-  &.entering-info {
-    border: 2px solid $silver-chalice;
+    border: 2px solid $alto;
   }
   &.error {
     border-color: red;
@@ -21,6 +18,9 @@
     background: $alto;
     border-color: $alto;
     color: $silver-chalice;
+  }
+  &:focus {
+    border-color: $silver-chalice;
   }
 }
 

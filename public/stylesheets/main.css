@@ -87,6 +87,9 @@ p {
   line-height: 1.25em;
   margin: 0 auto; }
 
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea {
+  outline: none; }
+
 /* Import fonts */
 h1, p, blockquote, input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea {
   font-family: 'Lato';
@@ -916,9 +919,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   min-width: 18.75em;
   padding: 1em; }
   input[type="color"].has-info, input[type="date"].has-info, input[type="datetime"].has-info, input[type="datetime-local"].has-info, input[type="email"].has-info, input[type="month"].has-info, input[type="number"].has-info, input[type="password"].has-info, input[type="search"].has-info, input[type="tel"].has-info, input[type="text"].has-info, input[type="time"].has-info, input[type="url"].has-info, input[type="week"].has-info, textarea.has-info {
-    border: 2px solid #DDDDDD !important; }
-  input[type="color"].entering-info, input[type="date"].entering-info, input[type="datetime"].entering-info, input[type="datetime-local"].entering-info, input[type="email"].entering-info, input[type="month"].entering-info, input[type="number"].entering-info, input[type="password"].entering-info, input[type="search"].entering-info, input[type="tel"].entering-info, input[type="text"].entering-info, input[type="time"].entering-info, input[type="url"].entering-info, input[type="week"].entering-info, textarea.entering-info {
-    border: 2px solid #AAAAAA; }
+    border: 2px solid #DDDDDD; }
   input[type="color"].error, input[type="date"].error, input[type="datetime"].error, input[type="datetime-local"].error, input[type="email"].error, input[type="month"].error, input[type="number"].error, input[type="password"].error, input[type="search"].error, input[type="tel"].error, input[type="text"].error, input[type="time"].error, input[type="url"].error, input[type="week"].error, textarea.error {
     border-color: red;
     background: #F6F6F6; }
@@ -926,6 +927,8 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
     background: #DDDDDD;
     border-color: #DDDDDD;
     color: #AAAAAA; }
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus {
+    border-color: #AAAAAA; }
 
 /* Import state and helper files */
 .text-center {
