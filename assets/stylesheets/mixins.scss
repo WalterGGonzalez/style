@@ -8,7 +8,10 @@ $disabled-lighten: 8%;
   width: $width;
 }
 
-@mixin buttons($bg-color, $border-color, $color, $hover-bg-color, $hover-color, $active-bg-color) {
+@mixin buttons($bg-color, $border-color, $color,
+                $hover-bg-color, $hover-color,
+                $active-bg-color, $active-color,
+                $disabled-border-color, $disabled-color) {
   background-color: $bg-color;
   border-color: $border-color;
   border-style: solid;
@@ -32,11 +35,12 @@ $disabled-lighten: 8%;
   &:active {
     background: $active-bg-color;
     border-color: $active-bg-color;
+    color: $active-color;
   }
   &:disabled {
     background: transparent;
-    border-color: lighten($border-color, $disabled-lighten);
-    color: lighten($color, $disabled-lighten);
+    border-color: $disabled-border-color;
+    color: $disabled-color;
   }
 }
 

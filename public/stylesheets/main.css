@@ -705,34 +705,6 @@ blockquote {
 
 .btn-1 {
   background-color: transparent;
-  border-color: #DDDDDD;
-  border-style: solid;
-  border-width: 4px;
-  color: #CCCCCC;
-  cursor: pointer;
-  display: inline-block;
-  font: 100 18px Lato;
-  height: 60px;
-  padding: 16px 0;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  vertical-align: top;
-  width: 240px; }
-  .btn-1:hover {
-    background-color: #BBBBBB;
-    border-color: #BBBBBB;
-    color: #FFFFFF; }
-  .btn-1:active {
-    background: #999999;
-    border-color: #999999; }
-  .btn-1:disabled {
-    background: transparent;
-    border-color: #f1f1f1;
-    color: #e0e0e0; }
-
-.btn-2 {
-  background-color: transparent;
   border-color: #FFFFFF;
   border-style: solid;
   border-width: 4px;
@@ -747,24 +719,54 @@ blockquote {
   text-transform: uppercase;
   vertical-align: top;
   width: 240px; }
-  .btn-2:hover {
+  .btn-1:hover {
     background-color: #FFFFFF;
     border-color: #FFFFFF;
     color: #BBBBBB; }
-  .btn-2:active {
-    background: #999999;
-    border-color: #999999; }
-  .btn-2:disabled {
+  .btn-1:active {
+    background: #EEEEEE;
+    border-color: #EEEEEE;
+    color: #AAAAAA; }
+  .btn-1:disabled {
     background: transparent;
-    border-color: white;
-    color: white; }
+    border-color: #999999;
+    color: #999999; }
 
-.btn-3 {
+.btn-2 {
   background-color: #DDDDDD;
   border-color: #DDDDDD;
   border-style: solid;
   border-width: 4px;
   color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font: 100 18px Lato;
+  height: 60px;
+  padding: 16px 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: 240px; }
+  .btn-2:hover {
+    background-color: #BBBBBB;
+    border-color: #BBBBBB;
+    color: #FFFFFF; }
+  .btn-2:active {
+    background: #999999;
+    border-color: #999999;
+    color: #FFFFFF; }
+  .btn-2:disabled {
+    background: transparent;
+    border-color: #EEEEEE;
+    color: #DDDDDD; }
+
+.btn-3 {
+  background-color: transparent;
+  border-color: #DDDDDD;
+  border-style: solid;
+  border-width: 4px;
+  color: #CCCCCC;
   cursor: pointer;
   display: inline-block;
   font: 100 18px Lato;
@@ -781,11 +783,19 @@ blockquote {
     color: #FFFFFF; }
   .btn-3:active {
     background: #999999;
-    border-color: #999999; }
+    border-color: #999999;
+    color: #FFFFFF; }
   .btn-3:disabled {
     background: transparent;
-    border-color: #f1f1f1;
-    color: white; }
+    border-color: #EEEEEE;
+    color: #DDDDDD; }
+
+.narrow {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  max-height: 3.125rem;
+  max-width: 6.25rem;
+  padding: 0px; }
 
 .menu-mobile {
   background: #56A094;

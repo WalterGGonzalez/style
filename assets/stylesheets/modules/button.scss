@@ -1,23 +1,24 @@
-.btn-1 { @include buttons(transparent,
-                          $alto,
-                          $silver,
-                          $silver-dark,
-                          $white,
-                          $dust-gray) }
+.btn-1 { @include buttons(transparent, $white, $white,
+                          $white, $silver-dark,
+                          $gallery, $silver-chalice,
+                          $dust-gray, $dust-gray) }
 
-.btn-2 { @include buttons(transparent,
-                          $white,
-                          $white,
-                          $white,
-                          $silver-dark,
-                          $dust-gray) }
+.btn-2 { @include buttons($alto, $alto, $white,
+                          $silver-dark, $white,
+                          $dust-gray, $white,
+                          $gallery, $alto) }
 
-.btn-3 { @include buttons($alto,
-                          $alto,
-                          $white,
-                          $silver-dark,
-                          $white,
-                          $dust-gray) }
+.btn-3 { @include buttons(transparent, $alto, $silver,
+                          $silver-dark, $white,
+                          $dust-gray, $white,
+                          $gallery, $alto) }
+
+.narrow {
+  @include font-size(15px);
+  max-height: rem(50px);
+  max-width: rem(100px);
+  padding: 0px;
+}
 
 .menu-mobile { @include menu(30px); }
 
