@@ -13,9 +13,7 @@ $disabled-lighten: 8%;
                 $active-bg-color, $active-color,
                 $disabled-border-color, $disabled-color) {
   background-color: $bg-color;
-  border-color: $border-color;
-  border-style: solid;
-  border-width: $btn-border;
+  border: $btn-border solid $border-color;
   color: $color;
   cursor: pointer;
   display: inline-block;
