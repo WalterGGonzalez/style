@@ -913,7 +913,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   color: #333333;
   font-size: 1em;
   max-height: 50px;
-  min-width: em(300);
+  min-width: 18.75em;
   padding: 1em; }
   input[type="color"].has-info, input[type="date"].has-info, input[type="datetime"].has-info, input[type="datetime-local"].has-info, input[type="email"].has-info, input[type="month"].has-info, input[type="number"].has-info, input[type="password"].has-info, input[type="search"].has-info, input[type="tel"].has-info, input[type="text"].has-info, input[type="time"].has-info, input[type="url"].has-info, input[type="week"].has-info, textarea.has-info {
     border: 2px solid #AAAAAA !important; }
