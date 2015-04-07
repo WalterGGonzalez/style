@@ -978,6 +978,7 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
     font: normal 400 22px 'Lato', sans-serif; }
 
 .main-menu-logo {
+  background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -578px -18px no-repeat;
   margin: 100px auto 68px; }
   @media (max-width: 1024px) {
     .main-menu-logo {
@@ -987,7 +988,9 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
       margin: 196px auto 68px; } }
   @media (max-width: 320px) {
     .main-menu-logo {
-      margin: 32px auto 38px; } }
+      background: url("http://crowdint-styles.s3.amazonaws.com/assets/ci2015_blog_assets.svg") -828px -18px no-repeat;
+      margin: 32px auto 38px;
+      width: 50px; } }
 
 /* Import state and helper files */
 .text-center {
