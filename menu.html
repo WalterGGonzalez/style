@@ -6,7 +6,15 @@
     <meta content='width=device-width, initial-scale=1.0' name='viewpoint'>
   </head>
   <body>
-    <nav class='js-navigation main-menu'>
+    <div class='js-menu-cont-overlay'>
+      <span></span>
+    </div>
+
+    <div class='js-menu-nav-overlay'>
+      <span></span>
+    </div>
+
+    <nav class='js-menu-navigation main-menu'>
       <div class='main-menu-logo'></div>
       <ul>
         <li class='main-menu-option'>
@@ -36,10 +44,10 @@
       </ul>
     </nav>
 
-    <section class='js-content'>
+    <section class='js-menu-content'>
       <section id='header'>
         <section class='header'>
-          <a href='#' class='menu-mobile animate-to-x js-nav-trigger'>
+          <a href='#' class='menu-mobile animate-to-x js-menu-nav-trigger'>
             <span></span>
           </a>
         </section>
@@ -228,14 +236,6 @@
         </section>
       </section>
     </section>
-
-    <div class='js-cont-overlay'>
-      <span></span>
-    </div>
-
-    <div class='js-nav-overlay'>
-      <span></span>
-    </div>
 
     <script src='bower_components/jquery/dist/jquery.min.js'></script>
     <script src='bower_components/velocity/velocity.min.js'></script>

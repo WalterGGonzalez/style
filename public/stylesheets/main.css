@@ -923,9 +923,10 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
   border: 2px solid #AAAAAA; }
 
 .main-menu {
-  -moz-transition: visibility 0s, opacity 0.3s;
-  -webkit-overflow-scrolling: touch;
   -webkit-transition: visibility 0s, opacity 0.3s;
+  -moz-transition: visibility 0s, opacity 0.3s;
+  transition: visibility 0s, opacity 0.3s;
+  -webkit-overflow-scrolling: touch;
   background-color: #56A094;
   height: 100%;
   left: 0;
@@ -934,14 +935,13 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
   overflow: auto;
   position: fixed;
   top: 0;
-  transition: visibility 0s, opacity 0.3s;
   visibility: hidden;
   width: 100%;
   z-index: 3; }
 
 .main-menu-option {
-  text-align: center;
-  display: block; }
+  display: block;
+  text-align: center; }
 
 .main-menu-link {
   color: #FFFFFF;
@@ -952,10 +952,14 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
   position: relative;
   text-decoration: blink; }
   .main-menu-link::after {
-    -moz-transform: translateY(10px);
-    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
-    -webkit-transform: translateY(10px);
     -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
     background: rgba(0, 0, 0, 0.1);
     border: 1px dashed #333333;
     content: '';
@@ -963,14 +967,14 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
     opacity: 0;
     position: absolute;
     top: 100%;
-    transform: translateY(10px);
-    transition: opacity 0.3s, transform 0.3s;
     width: 100%; }
   .main-menu-link:hover::after {
-    -moz-transform: translateY(0px);
     -webkit-transform: translateY(0px);
-    opacity: 1;
-    transform: translateY(0px); }
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1; }
   .main-menu-link:hover {
     font: normal 400 22px 'Lato', sans-serif; }
 
@@ -993,65 +997,65 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
 .nav-close {
   position: fixed; }
 
-.js-nav-trigger {
+.js-menu-nav-trigger {
   z-index: 5; }
 
-.js-content {
-  z-index: 1;
-  background-color: #FFFFFF; }
+.js-menu-content {
+  background-color: #FFFFFF;
+  z-index: 1; }
 
-.js-nav-overlay {
+.js-menu-nav-overlay {
   z-index: 2; }
-  .js-nav-overlay span {
+  .js-menu-nav-overlay span {
     background-color: #56A094; }
 
-.js-cont-overlay {
+.js-menu-cont-overlay {
   z-index: 4; }
-  .js-cont-overlay span {
+  .js-menu-cont-overlay span {
     background-color: #FFFFFF; }
 
-.js-navigation {
+.js-menu-navigation {
   z-index: 3; }
-  .js-navigation.fade-in {
-    visibility: visible;
-    opacity: 1; }
+  .js-menu-navigation.fade-in {
+    opacity: 1;
+    visibility: visible; }
 
-.js-cont-overlay, .js-nav-overlay {
+.js-menu-cont-overlay, .js-menu-nav-overlay {
+  -webkit-transform: translateX(-20px) translateY(20px);
   -moz-transform: translateX(-20px) translateY(20px);
   -ms-transform: translateX(-20px) translateY(20px);
   -o-transform: translateX(-20px) translateY(20px);
-  -webkit-transform: translateX(-20px) translateY(20px);
+  transform: translateX(-20px) translateY(20px);
   height: 4px;
   left: 4%;
   position: fixed;
   top: 33px;
-  transform: translateX(-20px) translateY(20px);
   width: 4px; }
-  .js-cont-overlay span, .js-nav-overlay span {
-    -moz-transform-origin: 50% 50%;
-    -moz-transform: scale(0);
-    -moz-transform: translateZ(0);
-    -ms-transform-origin: 50% 50%;
-    -ms-transform: scale(0);
-    -ms-transform: translateZ(0);
-    -o-transform-origin: 50% 50%;
-    -o-transform: scale(0);
-    -o-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    -webkit-transform-origin: 50% 50%;
+  .js-menu-cont-overlay span, .js-menu-nav-overlay span {
     -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
     -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    transform-origin: 50% 50%;
-    transform: scale(0);
-    transform: translateZ(0);
     will-change: transform; }
-  .js-cont-overlay.is-hidden, .js-nav-overlay.is-hidden {
+  .js-menu-cont-overlay.is-hidden, .js-menu-nav-overlay.is-hidden {
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
     opacity: 0;
-    visibility: hidden;
-    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    -moz-transition: opacity .3s 0s, visibility 0s .3s;
-    transition: opacity .3s 0s, visibility 0s .3s; }
+    visibility: hidden; }

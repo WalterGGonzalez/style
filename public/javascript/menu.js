@@ -1,8 +1,8 @@
 $(document).ready(function($) {
-  var navTrigger = $('.js-nav-trigger');
-  var navOverlay = $('.js-nav-overlay');
-  var navMain = $('.js-navigation');
-  var contOverlay = $('.js-cont-overlay');
+  var navTrigger = $('.js-menu-nav-trigger');
+  var navOverlay = $('.js-menu-nav-overlay');
+  var navMain = $('.js-menu-navigation');
+  var contOverlay = $('.js-menu-cont-overlay');
 
   layerInit();
   $(window).on('resize', function(){
