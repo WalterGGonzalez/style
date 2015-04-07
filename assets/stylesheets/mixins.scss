@@ -5,13 +5,25 @@
   width: $width;
 }
 
-@mixin buttons($bg-color, $border, $color, $hover-bg-color, $hover-color) {
-  background-color: $bg-color;
-  border: $border;
-  color: $color;
+$btn-default: ( background: transparent,
+                border-color: $white,
+                color: $white,
+                hover-bg-color: $silver-dark,
+                hover-color: $white,
+                active-bg-color: $dust-gray,
+                active-color: $white,
+                disabled-border-color: $gallery,
+                disabled-color: $alto );
+
+@mixin button($custom) {
+  $settings: map-merge($btn-default, $custom);
+
+  background-color: map-get($settings, 'background');
+  border: 4px solid map-get($settings, 'border-color');
+  color: map-get($settings, 'color');
   cursor: pointer;
   display: inline-block;
-  font: normal 100 0.938em 'Lato', sans-serif;
+  font: 100 18px Lato;
   height: 60px;
   padding: 16px 0;
   text-align: center;
@@ -20,10 +32,20 @@
   vertical-align: top;
   width: 240px;
   &:hover {
-    background-color: $hover-bg-color;
-    border: none;
-    color: $hover-color;
-    padding: 21px 0;
+    background-color: map-get($settings, 'hover-bg-color');
+    border-color: map-get($settings, 'hover-bg-color');
+    color: map-get($settings, 'hover-color');
+  }
+  &:active {
+    background: map-get($settings, 'active-bg-color');
+    border-color: map-get($settings, 'active-bg-color');
+    color: map-get($settings, 'active-color');
+  }
+  &:disabled {
+    background: transparent;
+    border-color: map-get($settings, 'disabled-border-color');
+    color: map-get($settings, 'disabled-color');
+    cursor: not-allowed;
   }
 }
 

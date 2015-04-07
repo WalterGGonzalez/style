@@ -1,6 +1,20 @@
-.btn-1 { @include buttons(transparent, 5px solid $alto, $silver, $silver-dark, $white) }
-.btn-2 { @include buttons(transparent, 5px solid $white, $white, $white, $silver-dark) }
-.btn-3 { @include buttons($alto, 5px solid $alto, $white, $silver-dark, $white) }
+.btn-1 { @include button((hover-bg-color: $white,
+                          hover-color: $silver-dark,
+                          active-bg-color: $gallery,
+                          active-color: $silver-chalice,
+                          disabled-border-color: $dust-gray,
+                          disabled-color: $dust-gray)) }
+
+.btn-2 { @include button((background: $alto, border-color: $alto)) }
+
+.btn-3 { @include button((border-color: $alto, color: $silver)) }
+
+.narrow {
+  @include font-size(15px);
+  max-height: rem(50px);
+  max-width: rem(100px);
+  padding: 0px;
+}
 
 .menu-mobile { @include menu(30px); }
 
