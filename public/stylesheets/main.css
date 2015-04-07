@@ -860,7 +860,7 @@ blockquote {
   -webkit-transition-delay: 0.2s;
   -moz-transition-delay: 0.2s;
   transition-delay: 0.2s; }
-.animate-to-x:hover span {
+.animate-to-x.nav-close span {
   -webkit-transition-delay: .2s;
   background-color: transparent;
   -webkit-transition-delay: 0.2s;
@@ -876,7 +876,7 @@ blockquote {
   -webkit-transition-delay: 0.2s, 0;
   -moz-transition-delay: 0.2s, 0;
   transition-delay: 0.2s, 0; }
-.animate-to-x:hover span:before {
+.animate-to-x.nav-close span:before {
   margin-top: 0;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -896,7 +896,7 @@ blockquote {
   -webkit-transition-delay: 0.2s, 0;
   -moz-transition-delay: 0.2s, 0;
   transition-delay: 0.2s, 0; }
-.animate-to-x:hover span:after {
+.animate-to-x.nav-close span:after {
   margin-top: 0;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -932,16 +932,12 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
   list-style: none;
   opacity: 0;
   overflow: auto;
-  padding: 50px;
   position: fixed;
   top: 0;
   transition: visibility 0s, opacity 0.3s;
   visibility: hidden;
   width: 100%;
   z-index: 3; }
-  @media (max-width: 320px) {
-    .main-menu {
-      padding: 25px; } }
 
 .main-menu-option {
   text-align: center;
@@ -974,6 +970,9 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
 /* Import state and helper files */
 .text-center {
   text-align: center; }
+
+.nav-close {
+  position: fixed; }
 
 .js-nav-trigger {
   z-index: 5; }

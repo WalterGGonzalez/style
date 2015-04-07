@@ -8,14 +8,12 @@
   list-style: none;
   opacity: 0;
   overflow: auto;
-  padding: 50px;
   position: fixed;
   top: 0;
   transition: visibility 0s, opacity 0.3s;
   visibility: hidden;
   width: 100%;
   z-index: 3;
-  @include breakpoint($bp-tiny) { padding: 25px; }
 }
 
 .main-menu-option {

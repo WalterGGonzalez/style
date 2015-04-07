@@ -13,7 +13,7 @@
     @include transition-duration(0s);
     @include transition-delay(.2s);
   }
-  &:hover span {
+  &.nav-close span {
     -webkit-transition-delay: .2s;
     background-color: rgba(0, 0, 0, 0);
     @include transition-delay(.2s);
@@ -23,7 +23,7 @@
     @include transition-duration(.2s);
     @include transition-delay(.2s, 0);
   }
-  &:hover span:before {
+  &.nav-close span:before {
     margin-top: 0;
     @include transform(rotate(45deg));
     @include transition-delay(0, .2s);
@@ -33,7 +33,7 @@
     @include transition-duration(.2s);
     @include transition-delay(.2s, 0);
   }
-  &:hover span:after {
+  &.nav-close span:after {
     margin-top: 0;
     @include transform(rotate(-45deg));
     @include transition-delay(0, .2s);
