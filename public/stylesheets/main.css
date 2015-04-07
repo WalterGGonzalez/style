@@ -861,11 +861,10 @@ blockquote {
   -moz-transition-delay: 0.2s;
   transition-delay: 0.2s; }
 .animate-to-x.nav-close span {
-  -webkit-transition-delay: .2s;
-  background-color: transparent;
   -webkit-transition-delay: 0.2s;
   -moz-transition-delay: 0.2s;
-  transition-delay: 0.2s; }
+  transition-delay: 0.2s;
+  background-color: transparent; }
 .animate-to-x span:before {
   -webkit-transition-property: transition-property-names(margin, -webkit-transform, "webkit");
   -moz-transition-property: transition-property-names(margin, -webkit-transform, "moz");
@@ -877,7 +876,6 @@ blockquote {
   -moz-transition-delay: 0.2s, 0;
   transition-delay: 0.2s, 0; }
 .animate-to-x.nav-close span:before {
-  margin-top: 0;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -885,7 +883,8 @@ blockquote {
   transform: rotate(45deg);
   -webkit-transition-delay: 0, 0.2s;
   -moz-transition-delay: 0, 0.2s;
-  transition-delay: 0, 0.2s; }
+  transition-delay: 0, 0.2s;
+  margin-top: 0; }
 .animate-to-x span:after {
   -webkit-transition-property: transition-property-names(margin, -webkit-transform, "webkit");
   -moz-transition-property: transition-property-names(margin, -webkit-transform, "moz");
@@ -897,7 +896,6 @@ blockquote {
   -moz-transition-delay: 0.2s, 0;
   transition-delay: 0.2s, 0; }
 .animate-to-x.nav-close span:after {
-  margin-top: 0;
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
@@ -905,7 +903,8 @@ blockquote {
   transform: rotate(-45deg);
   -webkit-transition-delay: 0, 0.2s;
   -moz-transition-delay: 0, 0.2s;
-  transition-delay: 0, 0.2s; }
+  transition-delay: 0, 0.2s;
+  margin-top: 0; }
 
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea {
   background: #EEEEEE;

@@ -14,9 +14,8 @@
     @include transition-delay(.2s);
   }
   &.nav-close span {
-    -webkit-transition-delay: .2s;
-    background-color: rgba(0, 0, 0, 0);
     @include transition-delay(.2s);
+    background-color: rgba(0, 0, 0, 0);
   }
   span:before {
     @include transition-property(margin, -webkit-transform);
@@ -24,9 +23,9 @@
     @include transition-delay(.2s, 0);
   }
   &.nav-close span:before {
-    margin-top: 0;
     @include transform(rotate(45deg));
     @include transition-delay(0, .2s);
+    margin-top: 0;
   }
   span:after {
     @include transition-property(margin, -webkit-transform);
@@ -34,8 +33,8 @@
     @include transition-delay(.2s, 0);
   }
   &.nav-close span:after {
-    margin-top: 0;
     @include transform(rotate(-45deg));
     @include transition-delay(0, .2s);
+    margin-top: 0;
   }
 }
