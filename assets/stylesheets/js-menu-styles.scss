@@ -9,12 +9,12 @@
 
 .js-menu-nav-overlay {
   z-index: 2;
-  span { background-color: $breaker-bay; }
+  > span { background-color: $breaker-bay; }
 }
 
 .js-menu-cont-overlay {
   z-index: 4;
-  span { background-color: $white; }
+  > span { background-color: $white; }
 }
 
 .js-menu-navigation {
@@ -32,7 +32,7 @@
   position: fixed;
   top: 33px;
   width: 4px;
-  span {
+  > span {
     @include transform(scale(0));
     @include transform(translateZ(0));
     @include transform-origin(50% 50%);

@@ -1005,12 +1005,12 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
 
 .js-menu-nav-overlay {
   z-index: 2; }
-  .js-menu-nav-overlay span {
+  .js-menu-nav-overlay > span {
     background-color: #56A094; }
 
 .js-menu-cont-overlay {
   z-index: 4; }
-  .js-menu-cont-overlay span {
+  .js-menu-cont-overlay > span {
     background-color: #FFFFFF; }
 
 .js-menu-navigation {
@@ -1030,7 +1030,7 @@ input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hove
   position: fixed;
   top: 33px;
   width: 4px; }
-  .js-menu-cont-overlay span, .js-menu-nav-overlay span {
+  .js-menu-cont-overlay > span, .js-menu-nav-overlay > span {
     -webkit-transform: scale(0);
     -moz-transform: scale(0);
     -ms-transform: scale(0);
