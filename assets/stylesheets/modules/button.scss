@@ -1,17 +1,13 @@
-.btn-1 { @include buttons(transparent, $white, $white,
-                          $white, $silver-dark,
-                          $gallery, $silver-chalice,
-                          $dust-gray, $dust-gray) }
+.btn-1 { @include button((hover-bg-color: $white,
+                          hover-color: $silver-dark,
+                          active-bg-color: $gallery,
+                          active-color: $silver-chalice,
+                          disabled-border-color: $dust-gray,
+                          disabled-color: $dust-gray)) }
 
-.btn-2 { @include buttons($alto, $alto, $white,
-                          $silver-dark, $white,
-                          $dust-gray, $white,
-                          $gallery, $alto) }
+.btn-2 { @include button((background: $alto, border-color: $alto)) }
 
-.btn-3 { @include buttons(transparent, $alto, $silver,
-                          $silver-dark, $white,
-                          $dust-gray, $white,
-                          $gallery, $alto) }
+.btn-3 { @include button((border-color: $alto, color: $silver)) }
 
 .narrow {
   @include font-size(15px);

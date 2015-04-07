@@ -1,6 +1,3 @@
-$btn-border: 4px;
-$disabled-lighten: 8%;
-
 @mixin icons($x, $y, $height: 32px, $width: 32px) {
   background: url($blog-sprite-url) $x $y no-repeat;
   display: inline-block;
@@ -8,13 +5,22 @@ $disabled-lighten: 8%;
   width: $width;
 }
 
-@mixin buttons($bg-color, $border-color, $color,
-                $hover-bg-color, $hover-color,
-                $active-bg-color, $active-color,
-                $disabled-border-color, $disabled-color) {
-  background-color: $bg-color;
-  border: $btn-border solid $border-color;
-  color: $color;
+$btn-default: ( background: transparent,
+                border-color: $white,
+                color: $white,
+                hover-bg-color: $silver-dark,
+                hover-color: $white,
+                active-bg-color: $dust-gray,
+                active-color: $white,
+                disabled-border-color: $gallery,
+                disabled-color: $alto );
+
+@mixin button($custom) {
+  $settings: map-merge($btn-default, $custom);
+
+  background-color: map-get($settings, 'background');
+  border: 4px solid map-get($settings, 'border-color');
+  color: map-get($settings, 'color');
   cursor: pointer;
   display: inline-block;
   font: 100 18px Lato;
@@ -26,19 +32,20 @@ $disabled-lighten: 8%;
   vertical-align: top;
   width: 240px;
   &:hover {
-    background-color: $hover-bg-color;
-    border-color: $hover-bg-color;
-    color: $hover-color;
+    background-color: map-get($settings, 'hover-bg-color');
+    border-color: map-get($settings, 'hover-bg-color');
+    color: map-get($settings, 'hover-color');
   }
   &:active {
-    background: $active-bg-color;
-    border-color: $active-bg-color;
-    color: $active-color;
+    background: map-get($settings, 'active-bg-color');
+    border-color: map-get($settings, 'active-bg-color');
+    color: map-get($settings, 'active-color');
   }
   &:disabled {
     background: transparent;
-    border-color: $disabled-border-color;
-    color: $disabled-color;
+    border-color: map-get($settings, 'disabled-border-color');
+    color: map-get($settings, 'disabled-color');
+    cursor: not-allowed;
   }
 }
 

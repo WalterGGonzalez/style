@@ -728,7 +728,8 @@ blockquote {
   .btn-1:disabled {
     background: transparent;
     border-color: #999999;
-    color: #999999; }
+    color: #999999;
+    cursor: not-allowed; }
 
 .btn-2 {
   background-color: #DDDDDD;
@@ -755,7 +756,8 @@ blockquote {
   .btn-2:disabled {
     background: transparent;
     border-color: #EEEEEE;
-    color: #DDDDDD; }
+    color: #DDDDDD;
+    cursor: not-allowed; }
 
 .btn-3 {
   background-color: transparent;
@@ -782,7 +784,8 @@ blockquote {
   .btn-3:disabled {
     background: transparent;
     border-color: #EEEEEE;
-    color: #DDDDDD; }
+    color: #DDDDDD;
+    cursor: not-allowed; }
 
 .narrow {
   font-size: 15px;
