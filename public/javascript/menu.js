@@ -9,46 +9,40 @@ $(document).ready(function($) {
     window.requestAnimationFrame(layerInit);
   });
 
-  navTrigger.click(function() {
+  navTrigger.on('click', function() {
     if(!navTrigger.hasClass('nav-close')) {
       navTrigger.addClass('nav-close');
 
       navOverlay.children('span').velocity({
         translateZ: 0,
         scaleX: 1,
-        scaleY: 1
+        scaleY: 1,
       }, 500, 'easeInCubic', function(){
         navMain.addClass('fade-in');
       });
     } else {
+
       navTrigger.removeClass('nav-close');
 
       contOverlay.children('span').velocity({
-        traslateZ: 0,
+        translateZ: 0,
         scaleX: 1,
         scaleY: 1
       }, 500, 'easeInCubic', function(){
         navMain.removeClass('fade-in');
 
-        contOverlay.addClass('is-hidden').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-          contOverlay.children('span').velocity({
-            translateZ: 0,
-            scaleX: 0,
-            scaleY: 0
-          }, 0, function(){
-            contOverlay.removeClass('is-hidden');
-          });
-        });
+        navOverlay.children('span').velocity({
+          translateZ: 0,
+          scaleX: 0,
+          scaleY: 0
+        }, 0);
 
-        if ($('html').hasClass('no-csstransitions')) {
-          contOverlay.children('span').velocity({
-            translateZ: 0,
-            scaleX: 0,
-            scaleY: 0
-          }, 0, function(){
-            contOverlay.removeClass('is-hidden');
-          });
-        }
+        contOverlay.addClass('is-hidden');
+        contOverlay.children('span').velocity({
+          translateZ: 0,
+          scaleX: 0,
+          scaleY: 0
+        }, 0, function() { contOverlay.removeClass('is-hidden') });
       });
     }
   });
@@ -76,6 +70,6 @@ $(document).ready(function($) {
       width: diameterValue + 'px',
       top: - (diameterValue / 2) + 'px',
       left: - (diameterValue / 2) + 'px'
-    });
+    }, 0);
   };
 });
