@@ -1,0 +1,51 @@
+.js-menu-nav-trigger {
+  z-index: 5;
+}
+
+.js-menu-content {
+  background-color: $white;
+  z-index: 1;
+}
+
+.js-menu-nav-overlay {
+  z-index: 2;
+  > span { background-color: $breaker-bay; }
+}
+
+.js-menu-cont-overlay {
+  z-index: 4;
+  > span { background-color: $white; }
+}
+
+.js-menu-navigation {
+  z-index: 3;
+  &.fade-in {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.js-menu-cont-overlay, .js-menu-nav-overlay {
+  @include transform(translateX(-20px) translateY(20px));
+  height: 4px;
+  left: 4%;
+  position: fixed;
+  top: 33px;
+  width: 4px;
+  > span {
+    @include transform(scale(0));
+    @include transform(translateZ(0));
+    @include transform-origin(50% 50%);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    will-change: transform;
+  }
+  &.is-hidden {
+    @include transition(opacity .3s 0s, visibility 0s .3s);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
