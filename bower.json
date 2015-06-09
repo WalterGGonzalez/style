@@ -1,14 +1,13 @@
 {
   "name": "crowdint-styles",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/crowdint/style",
   "authors": [
-    "Juan Carlos Aguilar Rincón <juan.aguilar@crowdint.com>",
-    "Edmundo Perez Castrejon <edmundo.perez@crowdint.com>"
+    "Crowd Interactive <developers@crowdint.com>"
   ],
-  "description": "default css for all crowdint websites",
+  "description": "Default assets for all CrowdInt websites",
   "license": "MIT",
-  "main": "public/stylesheets/style.css",
+  "main": "",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -17,11 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "susy": "~2.2.2",
     "breakpoint-sass": "~2.5.0",
-    "velocity": "~1.2.0"
-  },
-  "devDependencies": {
-    "jquery": "~2.1.3"
+    "jquery": "~2.1.3",
+    "susy": "~2.2.2"
   }
 }
