@@ -1,0 +1,19 @@
+{
+  "name": "crowdint-styles",
+  "version": "0.0.2",
+  "description": "Default assets for all CrowdInt websites",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crowdint/style.git"
+  },
+  "author": "developers@crowdint.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crowdint/style/issues"
+  },
+  "homepage": "https://github.com/crowdint/style"
+}
